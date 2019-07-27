@@ -1,0 +1,80 @@
+\contentsline {chapter}{List of Tables}{v}
+\contentsline {chapter}{List of Figures}{vi}
+\contentsline {chapter}{List of Abbreviations}{vii}
+\contentsline {chapter}{List of Symbols}{viii}
+\contentsline {chapter}{Chapter\ 1\hskip 1em\relax Introduction}{1}
+\contentsline {section}{\numberline {1.1}Why Do Human Communicate?}{2}
+\contentsline {section}{\numberline {1.2}The Importance of Studying System-User Communication}{3}
+\contentsline {section}{\numberline {1.3}Shannon-Weaver Communication Model}{4}
+\contentsline {section}{\numberline {1.4}System-User Communication in Natural Language}{6}
+\contentsline {subsection}{\numberline {1.4.1}Natural Language Input Interface}{6}
+\contentsline {subsection}{\numberline {1.4.2}Natural Language Output Interface}{6}
+\contentsline {section}{\numberline {1.5}An Overview of the Mobile Systems and User Interfaces}{7}
+\contentsline {section}{\numberline {1.6}The Challenges of End User Communications Over Mobile Devices}{8}
+\contentsline {subsection}{\numberline {1.6.1}Challenge 1: Making Security Decisions}{8}
+\contentsline {subsection}{\numberline {1.6.2}Challenge 2: e-Commerce Shopping}{9}
+\contentsline {subsection}{\numberline {1.6.3}Challenge 3: Performing Data Analysis}{10}
+\contentsline {section}{\numberline {1.7}Thesis Overview}{11}
+\contentsline {chapter}{Chapter\ 2\hskip 1em\relax Assisting Security Decision Making with Natural Language Explanations}{13}
+\contentsline {section}{\numberline {2.1}Runtime Permission Rationale: Introduction}{13}
+\contentsline {section}{\numberline {2.2}Background and Related Work}{16}
+\contentsline {section}{\numberline {2.3}Data Collection}{18}
+\contentsline {subsection}{\numberline {2.3.1}Crawling Apps}{18}
+\contentsline {subsection}{\numberline {2.3.2}Annotating Permission-group Rationales}{18}
+\contentsline {section}{\numberline {2.4}RQ1: Overall Explanation Frequency}{19}
+\contentsline {section}{\numberline {2.5}RQ2: Explanation Frequency for Non-straightforward vs. Straightforward Purposes}{20}
+\contentsline {section}{\numberline {2.6}RQ3: Incorrect Rationales}{24}
+\contentsline {section}{\numberline {2.7}RQ4: Rationale Specificity}{26}
+\contentsline {section}{\numberline {2.8}RQ5: Rationales vs. App Descriptions}{27}
+\contentsline {section}{\numberline {2.9}Threats to Validity}{28}
+\contentsline {section}{\numberline {2.10}Implications}{28}
+\contentsline {section}{\numberline {2.11}Conclusion}{29}
+\contentsline {section}{\numberline {2.12}CLAP: Introduction}{30}
+\contentsline {section}{\numberline {2.13}Similar-App Ranker}{32}
+\contentsline {subsection}{\numberline {2.13.1}Description Similarity}{33}
+\contentsline {subsection}{\numberline {2.13.2}Title Similarity}{34}
+\contentsline {subsection}{\numberline {2.13.3}Permission Similarity}{34}
+\contentsline {subsection}{\numberline {2.13.4}Category Similarity}{35}
+\contentsline {section}{\numberline {2.14}Identifying Permission-Explaining Sentences}{35}
+\contentsline {subsection}{\numberline {2.14.1}Breaking Sentences into Individual Purposes}{36}
+\contentsline {subsection}{\numberline {2.14.2}Matching Permission-Explaining Sentences}{36}
+\contentsline {section}{\numberline {2.15}Ranking Candidate Explaining Sentences}{37}
+\contentsline {section}{\numberline {2.16}Postprocessing Permission-Explaining Sentences}{39}
+\contentsline {section}{\numberline {2.17}Evaluation}{39}
+\contentsline {subsection}{\numberline {2.17.1}Dataset}{40}
+\contentsline {subsection}{\numberline {2.17.2}Extracting Gold-Standard Sentences}{40}
+\contentsline {subsection}{\numberline {2.17.3}Evaluation Metrics}{42}
+\contentsline {subsection}{\numberline {2.17.4}Alternative Approaches Under Comparison}{43}
+\contentsline {subsection}{\numberline {2.17.5}Automatic Quantitative Evaluation: Text-Similarity Scores}{44}
+\contentsline {subsection}{\numberline {2.17.6}Quantitative Evaluation: Manually-Judged Accuracy}{45}
+\contentsline {subsection}{\numberline {2.17.7}Qualitative Evaluation}{47}
+\contentsline {section}{\numberline {2.18}Limitations and Future Work}{48}
+\contentsline {section}{\numberline {2.19}Related Work}{49}
+\contentsline {section}{\numberline {2.20}Conclusion}{50}
+\contentsline {chapter}{Chapter\ 3\hskip 1em\relax Assisting Browsing and Navigation in Search Engine}{51}
+\contentsline {section}{\numberline {3.1}Introduction}{51}
+\contentsline {section}{\numberline {3.2}Related Work}{54}
+\contentsline {section}{\numberline {3.3}Formal Definition}{55}
+\contentsline {section}{\numberline {3.4}Evaluation}{56}
+\contentsline {subsection}{\numberline {3.4.1}User Behavior Assumptions}{56}
+\contentsline {subsection}{\numberline {3.4.2}Evaluation Metric}{57}
+\contentsline {section}{\numberline {3.5}Methods}{58}
+\contentsline {subsection}{\numberline {3.5.1}First Method: Dynamic Programming}{58}
+\contentsline {subsection}{\numberline {3.5.2}A Second Look: Parameterization}{60}
+\contentsline {subsubsection}{Optimizing ARR with Respect to $R$}{60}
+\contentsline {subsubsection}{Optimizing the Surrogate Objective Function}{61}
+\contentsline {subsubsection}{Bounds on $C_n(R)$}{63}
+\contentsline {subsection}{\numberline {3.5.3}Learning to Partition with Regression Tree}{64}
+\contentsline {subsection}{\numberline {3.5.4}Testing Time and Rounding}{65}
+\contentsline {section}{\numberline {3.6}Experiments}{66}
+\contentsline {subsection}{\numberline {3.6.1}Dataset}{66}
+\contentsline {subsection}{\numberline {3.6.2}Experimental Results}{66}
+\contentsline {subsubsection}{Overall Comparative Study}{67}
+\contentsline {subsubsection}{Comparative Study on Non-smooth Optimization Methods}{68}
+\contentsline {subsubsection}{Comparative Study on Regression Tree Features}{69}
+\contentsline {subsubsection}{Comparative Study on Regression Tree Splitting Criterion}{70}
+\contentsline {subsubsection}{Comparative Study on $p(e)$}{70}
+\contentsline {section}{\numberline {3.7}Conclusion}{71}
+\contentsline {chapter}{Chapter\ 4\hskip 1em\relax Assisting Database Queries with Natural Language Interface}{73}
+\contentsline {chapter}{Chapter\ 5\hskip 1em\relax Conclusion}{74}
+\contentsline {chapter}{References}{75}

@@ -1,0 +1,25 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Shannon's Communication Model\nobreakspace {}\cite {shannon1948mathematical}\relax }}{4}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Weaver's Communication Model\nobreakspace {}\cite {shannon1951mathematical}\relax }}{5}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Due to user knowledge gap and the simplified permission request, the user gets confused on why the app needs permission request\relax }}{8}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Due to reduced search results and user position bias, the user conduct less exploration of the search results, resulting in the user more likely makes a suboptimal decision\relax }}{9}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Difference between display space on laptop/desktop vs. on mobile devices\relax }}{9}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Due to the difficulty to write programs using mobile interface, the user's need to query the database is expressed in natural language, which leads to the disconnection to the database interface.\relax }}{10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \relax }}{14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The usage proportion (top) and the explanation proportion (bottom) of the app sets in Table\nobreakspace {}2.2\hbox {}. Each element at ($Q$, $P$) shows the proportion of apps in set $Q$ to use/explain the purpose of permission group $P$.\relax }}{21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The proportions of non-redundant rationales.\relax }}{26}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces An example showing how CLAP assists developers with permission requirements, with the dashed rectangle showing sentences recommended by CLAP.\relax }}{30}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces CLAP's WES results across different K values\relax }}{45}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The quantitative evaluation results of manually-judged accuracy: bar plots show the average accuracy of top-5 results in each of the four approaches. The upper plot shows results on \textsf {CONTACT}$_{authr}$; the lower plot shows results on \textsf {RECORD}$_{authr}$; T-test between the highest and second highest scores in each group are 9e-7, 0.03, 9e-6 (upper) and 4e-6, 0.04, 1e-4 (lower). Parameter settings are $\lambda _1=\lambda _2=0.4$, $\lambda _3=\lambda _4=0.1$, top-K=20. \relax }}{47}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption for LOF}}{52}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A specific example of the `one range dominates' issue (Table\nobreakspace {}3.1\hbox {}). The snapshot was taken on 01/21/2016, on Amazon under query `refurbished laptop'.\relax }}{53}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces $F_n$ and $C_n$ for Laptop and TV when $k=2$\relax }}{67}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Compare importance of different feature groups: ARR for $k=2,\cdots , 6$. Above: Laptop; below: TV\relax }}{68}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Compare different splitting criteria for regression tree method: $p$-value in T-test between minimizing mean square error (\texttt {square}) and minimizing $C_n$ (\texttt {nonsquare}). Above: Laptop; below: TV\relax }}{71}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

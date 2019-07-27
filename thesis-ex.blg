@@ -1,0 +1,189 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis-ex.aux
+A level-1 auxiliary file: Appendix.tex.aux
+The style file: apalike.bst
+Database file #1: thesisbib.bib
+Repeated entry---line 298 of file thesisbib.bib
+ : @inproceedings{clap
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1758 of file thesisbib.bib
+ : @misc{facebookleak
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1764 of file thesisbib.bib
+ : @inproceedings{chen2013contextual
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1826 of file thesisbib.bib
+ : @misc{whyper
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1832 of file thesisbib.bib
+ : @misc{whypertool
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1975 of file thesisbib.bib
+ : @inproceedings{conf/soups/FeltHEHCW12
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1984 of file thesisbib.bib
+ : @inproceedings{conf/chi/KelleyCS13
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2002 of file thesisbib.bib
+ : @inproceedings{conf/huc/LinSALHZ12
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2012 of file thesisbib.bib
+ : @inproceedings{conf/huc/LiGC16
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2031 of file thesisbib.bib
+ : @inproceedings{conf/soups/LinLSH14
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2041 of file thesisbib.bib
+ : @inproceedings{conf/ccs/FeltCHSW11
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2089 of file thesisbib.bib
+ : @inproceedings{conf/icse/GorlaTGZ14
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2111 of file thesisbib.bib
+ : @inproceedings{journals/tocs/EnckGHTCCJMS14
+ :                                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2141 of file thesisbib.bib
+ : @inproceedings{conf/ccs/QuRZCZC14
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2173 of file thesisbib.bib
+ : @inproceedings{conf/uss/PanditaXYEX13
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2183 of file thesisbib.bib
+ : @inproceedings{conf/chi/TanNTNTEW14
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2218 of file thesisbib.bib
+ : @misc{permgroup
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2311 of file thesisbib.bib
+ : @inproceedings{yang2015appcontext
+ :                                  ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "Zwol"
+refers to entry "conf/www/2010", which doesn't exist
+A bad cross reference---entry "kashyap10"
+refers to entry "conf/cikm/2010", which doesn't exist
+A bad cross reference---entry "Roy08"
+refers to entry "conf/cikm/2008", which doesn't exist
+A bad cross reference---entry "conf/sigir/Azzopardi14"
+refers to entry "conf/sigir/2014", which doesn't exist
+A bad cross reference---entry "conf/cikm/YilmazVCRB14"
+refers to entry "conf/cikm/2014", which doesn't exist
+Warning--I didn't find a database entry for "conf/cikm/2010"
+Warning--I didn't find a database entry for "conf/sigir/2014"
+Warning--I didn't find a database entry for "conf/cikm/2014"
+Warning--I didn't find a database entry for "conf/cikm/2008"
+Warning--I didn't find a database entry for "conf/www/2010"
+Warning--to sort, need author or key in voicesearch
+Warning--to sort, need author or key in googlevoicesearch
+Warning--to sort, need author or key in location
+Warning--to sort, need author or key in explainableautonomousdriving
+Warning--to sort, need author or key in automateddecision
+Warning--to sort, need author or key in weavernote
+Warning--to sort, need author or key in smartphonechart
+Warning--to sort, need author or key in mobileecom
+Warning--to sort, need author or key in mobiletyping
+Warning--to sort, need author or key in facebookleak
+Warning--to sort, need author or key in permgroup
+Warning--to sort, need author or key in shouldshow
+Warning--to sort, need author or key in apkpure
+Warning--to sort, need author or key in runtimeproj
+Warning--to sort, need author or key in cnn
+Warning--to sort, need author or key in pearson
+Warning--to sort, need author or key in whypertool
+Warning--to sort, need author or key in requirementelicitation
+Warning--to sort, need author or key in requirementspecification
+Warning--to sort, need author or key in geolite
+Warning--to sort, need author or key in geofence
+Warning--to sort, need author or key in nltk
+Warning--to sort, need author or key in clapproj
+Warning--to sort, need author or key in word2vec
+Warning--to sort, need author or key in getcurrentlocation
+Warning--to sort, need author or key in Dawid:Skene:79
+Warning--to sort, need author or key in idf
+Warning--to sort, need author or key in alarmmon
+Warning--to sort, need author or key in whyper
+Warning--to sort, need author or key in jaccard
+Warning--to sort, need author or key in ttest
+Warning--empty year in alarmmon
+Warning--empty year in clapproj
+Warning--empty year in facebookleak
+Warning--empty year in geolite
+Warning--empty year in idf
+Warning--empty year in jaccard
+Warning--empty year in Dawid:Skene:79
+Warning--empty year in nltk
+Warning--empty year in ttest
+Warning--empty year in requirementelicitation
+Warning--empty year in runtimeproj
+Warning--empty year in geofence
+Warning--empty year in requirementspecification
+Warning--empty year in getcurrentlocation
+Warning--empty year in whyper
+Warning--empty year in whypertool
+Warning--empty year in word2vec
+Warning--empty journal in hahn2014survey
+Warning--empty booktitle in Hearst2008UI
+Warning--empty booktitle in Nissenbaum:2004
+Warning--empty journal in shannon1951mathematical
+Warning--empty booktitle in Wogalter2002ResearchbasedGF
+Warning--can't use both volume and number fields in Wogalter2002ResearchbasedGF
+You've used 119 entries,
+            1935 wiz_defined-function locations,
+            1081 strings with 27551 characters,
+and the built_in function-call counts, 54429 in all, are:
+= -- 5605
+> -- 2068
+< -- 92
++ -- 755
+- -- 721
+* -- 4154
+:= -- 8572
+add.period$ -- 437
+call.type$ -- 119
+change.case$ -- 949
+chr.to.int$ -- 115
+cite$ -- 204
+duplicate$ -- 2405
+empty$ -- 3897
+format.name$ -- 838
+if$ -- 11508
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 88
+newline$ -- 609
+num.names$ -- 268
+pop$ -- 1093
+preamble$ -- 1
+purify$ -- 949
+quote$ -- 0
+skip$ -- 1816
+stack$ -- 0
+substring$ -- 3706
+swap$ -- 677
+text.length$ -- 69
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 710
+warning$ -- 54
+while$ -- 369
+width$ -- 0
+write$ -- 1576
+(There were 23 error messages)

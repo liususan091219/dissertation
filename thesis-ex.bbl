@@ -1,0 +1,762 @@
+\begin{thebibliography}{}
+
+\bibitem[ala, ]{alarmmon}
+{AlarmMon} app.
+\newblock
+  \url{https://play.google.com/store/apps/details?id=com.malangstudio.alarmmon}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[cla, ]{clapproj}
+{CLAP} project website.
+\newblock \url{https://sites.google.com/view/clapprojsite/}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[fac, ]{facebookleak}
+Facebook and cambridge analytical data breach.
+\newblock
+  \url{https://en.wikipedia.org/wiki/Facebook_and_Cambridge_Analytica_data_breach}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[geo, a]{geolite}
+{GeoTimer Lite}.
+\newblock \url{https://androidappsapk.co/detail-geotimer-lite/}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[idf, ]{idf}
+Inverse document frequency.
+\newblock
+  \url{https://nlp.stanford.edu/IR-book/html/htmledition/inverse-document-frequency-1.html}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[jac, ]{jaccard}
+Jaccard index.
+\newblock \url{https://en.wikipedia.org/wiki/Jaccard_index}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[Daw, ]{Dawid:Skene:79}
+Majority rule.
+\newblock \url{https://en.wikipedia.org/wiki/Majority_rule}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[nlt, ]{nltk}
+{NLTK} language toolkit.
+\newblock \url{https://www.nltk.org}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[tte, ]{ttest}
+Python {T}-test.
+\newblock
+  \url{https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.stats.ttest_ind.html}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[req, a]{requirementelicitation}
+Requirements elicitation.
+\newblock \url{https://en.wikipedia.org/wiki/Requirements_elicitation}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[run, ]{runtimeproj}
+Runtime permission rationale project website.
+\newblock \url{https://sites.google.com/view/runtimepermissionproject/}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[geo, b]{geofence}
+Set up for geofence monitoring.
+\newblock \url{https://developer.android.com/training/location/geofencing}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[req, b]{requirementspecification}
+Software requirements specification.
+\newblock
+  \url{https://en.wikipedia.org/wiki/Software_requirements_specification}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[get, ]{getcurrentlocation}
+{Stack Overflow}: How do {I} get the current {GPS} location programmatically in
+  {A}ndroid?
+\newblock
+  \url{https://stackoverflow.com/questions/1513485/how-do-i-get-the-current-gps-location-programmatically-in-android}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[why, a]{whyper}
+{WHYPER} dataset.
+\newblock \url{https://sites.google.com/site/whypermission/home/results/}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[why, b]{whypertool}
+{WHYPER} tool.
+\newblock \url{https://github.com/rahulpandita/Whyper}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[wor, ]{word2vec}
+word2vec.
+\newblock \url{https://code.google.com/archive/p/word2vec/}.
+\newblock Accessed: 2018-06-29.
+
+\bibitem[goo, 2016]{googlevoicesearch}
+ (2016).
+\newblock Google says 20 percent of mobile queries are voice searches.
+\newblock
+  \url{https://searchengineland.com/google-reveals-20-percent-queries-voice-queries-249917}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[per, 2018]{permgroup}
+ (2018).
+\newblock Android permission groups.
+\newblock
+  \url{https://developer.android.com/guide/topics/permissions/requesting.html\#perm-groups}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[apk, 2018]{apkpure}
+ (2018).
+\newblock {APKP}ure website.
+\newblock \url{https://www.apkpure.com}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[aut, 2018]{automateddecision}
+ (2018).
+\newblock Automated individual decision-making, including profiling.
+\newblock \url{https://gdpr-info.eu/art-22-gdpr/}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[mob, 2018a]{mobiletyping}
+ (2018a).
+\newblock Continuous input in mobile devices: Pain or gain.
+\newblock
+  \url{https://www.smashingmagazine.com/2015/03/continuous-input-in-mobile-devices-pain-or-gain/}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[sma, 2018]{smartphonechart}
+ (2018).
+\newblock Global smartphone shipments forecast from 2010 to 2022 (in million
+  units).
+\newblock
+  \url{https://www.statista.com/statistics/263441/global-smartphone-shipments-forecast/}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[exp, 2018]{explainableautonomousdriving}
+ (2018).
+\newblock Intelligent machines nvidia lets you peer inside the black box of its
+  self-driving ai.
+\newblock
+  \url{https://www.technologyreview.com/s/604324/nvidia-lets-you-peer-inside-the-black-box-of-its-self-driving-ai/}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[mob, 2018b]{mobileecom}
+ (2018b).
+\newblock Mobile ecommerce stats in 2018 and the future online shopping trends
+  of mcommerce.
+\newblock
+  \url{https://www.outerboxdesign.com/web-design-articles/mobile-ecommerce-statistics}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[pea, 2018]{pearson}
+ (2018).
+\newblock Pearson correlation coefficient.
+\newblock \url{https://en.wikipedia.org/wiki/Pearson_correlation_coefficient}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[sho, 2018]{shouldshow}
+ (2018).
+\newblock Should show request permission rationale {API}.
+\newblock
+  \url{https://developer.android.com/reference/android/support/v4/app/ActivityCompat#shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String)}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[cnn, 2018]{cnn}
+ (2018).
+\newblock A tensorflow implementation of {CNN} text classification.
+\newblock \url{https://github.com/dennybritz/cnn-text-classification-tf}.
+\newblock Accessed: 2018-07-27.
+
+\bibitem[voi, 2018]{voicesearch}
+ (2018).
+\newblock Voice search statistics, facts and trends 2019 for online marketers.
+\newblock \url{https://seoexpertbrad.com/voice-search-statistics/}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[wea, 2018]{weavernote}
+ (2018).
+\newblock Weaver's model of communication and its implications.
+\newblock
+  \url{http://www.mrc.uidaho.edu/~rwells/techdocs/Weavers%20Model%20of%20Communication%20and%20Its%20Implications.pdf}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[loc, 2018]{location}
+ (2018).
+\newblock Your apps know where you were last night, and they're not keeping it
+  secret.
+\newblock
+  \url{https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html}.
+\newblock Accessed: 2018-12-26.
+
+\bibitem[Akhawe et~al., 2013]{conf/www/AkhaweAVS13}
+Akhawe, D., Amann, B., Vallentin, M., and Sommer, R. (2013).
+\newblock Here's my cert, so trust me, maybe?: {U}nderstanding {TLS} errors on
+  the web.
+\newblock In {\em Proceedings of the International Conference on World Wide
+  Web}, pages 59--70. ACM.
+
+\bibitem[Almuhimedi et~al., 2015]{conf/chi/AlmuhimediSSAAG15}
+Almuhimedi, H., Schaub, F., Sadeh, N.~M., Adjerid, I., Acquisti, A., Gluck, J.,
+  Cranor, L.~F., and Agarwal, Y. (2015).
+\newblock Your location has been shared 5,398 times! {A} field study on mobile
+  app privacy nudging.
+\newblock In {\em Proceedings of the Annual ACM Conference on Human Factors in
+  Computing Systems}, pages 787--796. ACM.
+
+\bibitem[Andow et~al., 2017]{conf/wisec/AndowALESX17}
+Andow, B., Acharya, A., Li, D., Enck, W., Singh, K., and Xie, T. (2017).
+\newblock Ui{R}ef: {Analysis} of sensitive user inputs in {A}ndroid
+  applications.
+\newblock In {\em Proceedings of the ACM Conference on Security and Privacy in
+  Wireless and Mobile Networks}, pages 23--34. ACM.
+
+\bibitem[Ant{\' o}n and Earp, 2004]{journals/re/AntonE04}
+Ant{\' o}n, A.~I. and Earp, J.~B. (2004).
+\newblock A requirements taxonomy for reducing web site privacy
+  vulnerabilities.
+\newblock {\em Requirements Engineering}, 9(3):169--185.
+
+\bibitem[Au et~al., 2012]{conf/ccs/AuZHL12}
+Au, K. W.~Y., Zhou, Y.~F., Huang, Z., and Lie, D. (2012).
+\newblock {PS}cout: {Analyzing} the {Android} permission specification.
+\newblock In {\em Proceedings of the ACM Conference on Computer and
+  Communications Security}, pages 217--228. ACM.
+
+\bibitem[Azzopardi, 2014]{conf/sigir/Azzopardi14}
+Azzopardi, L. (2014).
+\newblock Modelling interaction with economic models of search.
+\newblock In Geva, S., Trotman, A., Bruza, P., Clarke, C. L.~A., and Järvelin,
+  K., editors, {\em SIGIR}, pages 3--12. ACM.
+
+\bibitem[Bhatia and Breaux, 2017]{bhatia2017data}
+Bhatia, J. and Breaux, T.~D. (2017).
+\newblock A data purpose case study of privacy policies.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference}, pages 394--399. IEEE Computer Society.
+
+\bibitem[Bhatia et~al., 2016]{bhatia2016mining}
+Bhatia, J., Breaux, T.~D., and Schaub, F. (2016).
+\newblock Mining privacy goals from privacy policies using hybridized task
+  recomposition.
+\newblock {\em ACM Transactions on Software Engineering and Methodology},
+  25(3):1--24.
+
+\bibitem[Bonn{\'e} et~al., 2017]{conf/soups/BonnePBT17}
+Bonn{\'e}, B., Peddinti, S.~T., Bilogrevic, I., and Taft, N. (2017).
+\newblock Exploring decision-making with {A}ndroid's runtime permission dialogs
+  using in-context surveys.
+\newblock In {\em Proceedings of the Symposium on Usable Privacy and Security},
+  pages 195--210. USENIX Association.
+
+\bibitem[Carre{\~ n}o and Winbladh, 2013]{conf/icse/CarrenoW13}
+Carre{\~ n}o, L. V.~G. and Winbladh, K. (2013).
+\newblock Analysis of user comments: {A}n approach for software requirements
+  evolution.
+\newblock In {\em Proceedings of the International Conference on Software
+  Engineering}, pages 582--591. IEEE Computer Society.
+
+\bibitem[Chandler, 1994]{chandler1994transmission}
+Chandler, D. (1994).
+\newblock The transmission model of communication.
+\newblock {\em University of Western Australia. Retrieved}, 6:2014.
+
+\bibitem[Chen et~al., 2013]{chen2013contextual}
+Chen, K.~Z., Johnson, N.~M., D'Silva, V., Dai, S., MacNamara, K., Magrino,
+  T.~R., Wu, E.~X., Rinard, M., and Song, D.~X. (2013).
+\newblock Contextual policy enforcement in {A}ndroid applications with
+  permission event graphs.
+\newblock In {\em Proceedings of the Network \& Distributed System Security
+  Symposium}. The Internet Society.
+
+\bibitem[Chin et~al., 2012]{conf/soups/ChinFSW12}
+Chin, E., Felt, A.~P., Sekar, V., and Wagner, D. (2012).
+\newblock Measuring user confidence in smartphone security and privacy.
+\newblock In {\em Proceedings of the Symposium On Usable Privacy and Security},
+  pages 1 -- 16. ACM.
+
+\bibitem[Da~Silva and Agusti-Cullell, 2008]{da2008information}
+Da~Silva, F. S.~C. and Agusti-Cullell, J. (2008).
+\newblock {\em Information flow and knowledge sharing}, volume~2.
+\newblock Elsevier.
+
+\bibitem[Degeling et~al., 2018]{degeling2018we}
+Degeling, M., Utz, C., Lentzsch, C., Hosseini, H., Schaub, F., and Holz, T.
+  (2018).
+\newblock We value your privacy... now take some cookies: Measuring the gdpr's
+  impact on web privacy.
+\newblock {\em arXiv preprint arXiv:1808.05096}.
+
+\bibitem[Enck et~al., 2014]{journals/tocs/EnckGHTCCJMS14}
+Enck, W., Gilbert, P., Han, S., Tendulkar, V., Chun, B.-G., Cox, L.~P., Jung,
+  J., McDaniel, P.~D., and Sheth, A.~N. (2014).
+\newblock {T}aint{D}roid: {A}n information-flow tracking system for realtime
+  privacy monitoring on smartphones.
+\newblock In {\em Proceedings of the USENIX Conference on Operating Systems
+  Design and Implementation}, pages 393--407. ACM.
+
+\bibitem[Evans et~al., 2017]{conf/re/EvansBWB17}
+Evans, M.~C., Bhatia, J., Wadkar, S., and Breaux, T.~D. (2017).
+\newblock An evaluation of constituency-based hyponymy extraction from privacy
+  policies.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference}, pages 312--321. IEEE Computer Society.
+
+\bibitem[Felt et~al., 2011]{conf/ccs/FeltCHSW11}
+Felt, A.~P., Chin, E., Hanna, S., Song, D., and Wagner, D. (2011).
+\newblock Android permissions demystified.
+\newblock In {\em Proceedings of the ACM Conference on Computer and
+  Communications security}, pages 627--638. ACM.
+
+\bibitem[Felt et~al., 2012]{conf/soups/FeltHEHCW12}
+Felt, A.~P., Ha, E., Egelman, S., Haney, A., Chin, E., and Wagner, D. (2012).
+\newblock Android permissions: {U}ser attention, comprehension, and behavior.
+\newblock In {\em Proceedings of the Symposium on Usable Privacy and Security},
+  pages 3:1--3:14. USENIX Association.
+
+\bibitem[Finkel et~al., 2005]{conf/acl/FinkelGM05}
+Finkel, J.~R., Grenager, T., and Manning, C.~D. (2005).
+\newblock Incorporating non-local information into information extraction
+  systems by {G}ibbs sampling.
+\newblock In {\em Proceedings of the Annual Meeting on Association for
+  Computational Linguistics}, pages 363--370. Association for Computational
+  Linguistics.
+
+\bibitem[Gorla et~al., 2014]{conf/icse/GorlaTGZ14}
+Gorla, A., Tavecchia, I., Gross, F., and Zeller, A. (2014).
+\newblock Checking app behavior against app descriptions.
+\newblock In {\em Proceedings of the International Conference on Software
+  Engineering}, pages 1025--1035. ACM.
+
+\bibitem[Guzman and Maalej, 2014]{guzman2014users}
+Guzman, E. and Maalej, W. (2014).
+\newblock How do users like this feature? {A} fine grained sentiment analysis
+  of app reviews.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference}, pages 153--162. IEEE Computer Society.
+
+\bibitem[Hahn et~al., 2014]{hahn2014survey}
+Hahn, L.~K., Lippert, L., and Paynton, S.~T. (2014).
+\newblock Survey of communication study.
+
+\bibitem[Harbach et~al., 2013]{harbach2013sorry}
+Harbach, M., Fahl, S., Yakovleva, P., and Smith, M. (2013).
+\newblock Sorry, {I} don't get it: {A}n analysis of warning message texts.
+\newblock In {\em Proceedings of the International Conference on Financial
+  Cryptography and Data Security}, pages 94--111. Springer.
+
+\bibitem[Hariri et~al., 2013]{journals/tse/HaririCMCM13}
+Hariri, N., Castro-Herrera, C., Mirakhorli, M., Cleland-Huang, J., and
+  Mobasher, B. (2013).
+\newblock Supporting domain analysis through mining and recommending features
+  from online product listings.
+\newblock {\em IEEE Transactions on Software Engineering}, 39(12):1736--1752.
+
+\bibitem[Harman et~al., 2012]{harman2012app}
+Harman, M., Jia, Y., and Zhang, Y. (2012).
+\newblock App store mining and analysis: {MSR} for app stores.
+\newblock In {\em Proceedings of the Working Conference on Mining Software
+  Repositories}, pages 108--111. IEEE Computer Society.
+
+\bibitem[Hearst, 2008]{Hearst2008UI}
+Hearst, M.~A. (2008).
+\newblock Uis for faceted navigation: Recent advances and remaining open
+  problems.
+
+\bibitem[Hearst, 2009]{hearst2009search}
+Hearst, M.~A. (2009).
+\newblock {\em Search User Interfaces}.
+\newblock Cambridge University Press, 1 edition.
+
+\bibitem[Huang et~al., 2014]{conf/icse/HuangZTWL14}
+Huang, J., Zhang, X., Tan, L., Wang, P., and Liang, B. (2014).
+\newblock As{D}roid: {D}etecting stealthy behaviors in {A}ndroid applications
+  by user interface and program behavior contradiction.
+\newblock In {\em Proceedings of the International Conference on Software
+  Engineering}, pages 1036--1046. ACM.
+
+\bibitem[Jing et~al., 2014]{conf/codaspy/JingAZH14}
+Jing, Y., Ahn, G.-J., Zhao, Z., and Hu, H. (2014).
+\newblock Risk{M}on: {C}ontinuous and automated risk assessment of mobile
+  applications.
+\newblock In {\em Proceedings of the ACM Conference on Data and Application
+  Security and Privacy}, pages 99--110. ACM.
+
+\bibitem[Johann et~al., 2017]{DBLP:conf/re/JohannSBM17}
+Johann, T., Stanik, C., B., A. M.~A., and Maalej, W. (2017).
+\newblock {SAFE:} {A} simple approach for feature extraction from app
+  descriptions and app reviews.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference}, pages 21--30. IEEE Computer Society.
+
+\bibitem[Kang et~al., 2015]{journals/ijon/KangYZTHC15}
+Kang, C., Yin, D., Zhang, R., Torzec, N., He, J., and Chang, Y. (2015).
+\newblock Learning to rank related entities in web search.
+\newblock {\em Neurocomputing}, 166:309--318.
+
+\bibitem[Kashyap et~al., 2010]{kashyap10}
+Kashyap, A., Hristidis, V., and Petropoulos, M. (2010).
+\newblock Facetor: cost-driven exploration of faceted query results.
+\newblock In Huang, J., Koudas, N., Jones, G. J.~F., Wu, X., Collins-Thompson,
+  K., and An, A., editors, {\em CIKM}, pages 719--728. ACM.
+
+\bibitem[Kelley et~al., 2012]{conf/fc/KelleyCCJSW12}
+Kelley, P.~G., Consolvo, S., Cranor, L.~F., Jung, J., Sadeh, N.~M., and
+  Wetherall, D. (2012).
+\newblock A conundrum of permissions: {I}nstalling applications on an {A}ndroid
+  smartphone.
+\newblock In {\em Financial Cryptography Workshops}, pages 68--79. Springer.
+
+\bibitem[Kelley et~al., 2013]{conf/chi/KelleyCS13}
+Kelley, P.~G., Cranor, L.~F., and Sadeh, N.~M. (2013).
+\newblock Privacy as part of the app decision-making process.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 3393--3402. ACM.
+
+\bibitem[Kim, 2014]{kim2014convolutional}
+Kim, Y. (2014).
+\newblock Convolutional neural networks for sentence classification.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing}, pages 1746--1751. Association for Computational
+  Linguistics.
+
+\bibitem[Klein and Manning, 2003]{Klein2003}
+Klein, D. and Manning, C.~D. (2003).
+\newblock Accurate unlexicalized parsing.
+\newblock In {\em Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics}, pages 423--430. The Association for Computational
+  Linguistics.
+
+\bibitem[Koren et~al., 2008]{Koren:2008:PIF:1367497.1367562}
+Koren, J., Zhang, Y., and Liu, X. (2008).
+\newblock Personalized interactive faceted search.
+\newblock In {\em Proceedings of the 17th International Conference on World
+  Wide Web}, WWW '08, pages 477--486, New York, NY, USA. ACM.
+
+\bibitem[Kules et~al., 2009]{1555452}
+Kules, B., Capra, R., Banta, M., and Sierra, T. (2009).
+\newblock What do exploratory searchers look at in a faceted search interface?
+\newblock In {\em JCDL '09: Proceedings of the 9th ACM/IEEE-CS joint conference
+  on Digital libraries}, pages 313--322, New York, NY, USA. ACM.
+
+\bibitem[Lakkaraju et~al., 2016]{conf/kdd/LakkarajuBL16}
+Lakkaraju, H., Bach, S.~H., and Leskovec, J. (2016).
+\newblock Interpretable decision sets: A joint framework for description and
+  prediction.
+\newblock In {\em Proceedings of ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining}, pages 1675--1684. ACM.
+
+\bibitem[Li et~al., 2016]{conf/huc/LiGC16}
+Li, Y., Guo, Y., and Chen, X. (2016).
+\newblock {PERUIM}: {Understanding} mobile application privacy with
+  permission-{UI} mapping.
+\newblock In {\em Proceedings of the ACM Conference on Ubiquitous Computing},
+  pages 682--693. ACM.
+
+\bibitem[Liberman and Lempel, 2012]{Liberman:2012:AOF:2245276.2245409}
+Liberman, S. and Lempel, R. (2012).
+\newblock Approximately optimal facet selection.
+\newblock In {\em Proceedings of the 27th Annual ACM Symposium on Applied
+  Computing}, SAC '12, pages 702--708, New York, NY, USA. ACM.
+
+\bibitem[Lin et~al., 2014]{conf/soups/LinLSH14}
+Lin, J., Liu, B., Sadeh, N.~M., and Hong, J.~I. (2014).
+\newblock Modeling users' mobile app privacy preferences: {R}estoring usability
+  in a sea of permission settings.
+\newblock In {\em Proceedings of the Symposium on Usable Privacy and Security},
+  pages 199--212. USENIX Association.
+
+\bibitem[Lin et~al., 2012]{conf/huc/LinSALHZ12}
+Lin, J., Sadeh, N.~M., Amini, S., Lindqvist, J., Hong, J.~I., and Zhang, J.
+  (2012).
+\newblock Expectation and purpose: {U}nderstanding users' mental models of
+  mobile app privacy through crowdsourcing.
+\newblock In {\em Proceedings of the ACM Conference on Ubiquitous Computing},
+  pages 501--510. ACM.
+
+\bibitem[Liu et~al., 2018]{clap}
+Liu, X., Leng, Y., Yang, W., Zhai, C., and Xie, T. (2018).
+\newblock {Mining {Android} app descriptions for permission requirements
+  recommendation}.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference (RE 2018)}, pages 147--158.
+
+\bibitem[Maalej and Nabil, 2015]{conf/re/MaalejN15}
+Maalej, W. and Nabil, H. (2015).
+\newblock Bug report, feature request, or simply praise? {O}n automatically
+  classifying app reviews.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference}, pages 116--125. IEEE Computer Society.
+
+\bibitem[Massey et~al., 2013]{conf/re/MasseyEAS13}
+Massey, A.~K., Eisenstein, J., Antón, A.~I., and Swire, P.~P. (2013).
+\newblock Automated text mining for requirements analysis of policy documents.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference}, pages 4--13. IEEE Computer Society.
+
+\bibitem[Micinski et~al., 2017]{Micinski2017UserIA}
+Micinski, K.~K., Votipka, D., Stevens, R., Kofinas, N., Mazurek, M.~L., and
+  Foster, J.~S. (2017).
+\newblock User interactions and permission use on {A}ndroid.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 362--373. ACM.
+
+\bibitem[Mihalcea and Tarau, 2004]{Mihalcea04TextRank}
+Mihalcea, R. and Tarau, P. (2004).
+\newblock {TextRank}: Bringing order into texts.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing}, pages {404--411}. The Association for Computational
+  Linguistics.
+
+\bibitem[Mikolov et~al., 2013]{conf/nips/MikolovSCCD13}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013).
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in Neural Information Processing Systems 26}, pages
+  3111--3119. Morgan Kaufmann.
+
+\bibitem[Miller, 1967]{miller1967psychology}
+Miller, G.~A. (1967).
+\newblock The psychology of communication.
+\newblock {\em Human Resource Management}, 6(3):43.
+
+\bibitem[Moffat and Zobel, 2008]{journals/tois/MoffatZ08}
+Moffat, A. and Zobel, J. (2008).
+\newblock Rank-biased precision for measurement of retrieval effectiveness.
+\newblock {\em ACM Trans. Inf. Syst.}, 27(1).
+
+\bibitem[Nissenbaum, 2004]{Nissenbaum:2004}
+Nissenbaum, H. (2004).
+\newblock {P}rivacy as contextual integrity.
+\newblock pages 101--139. Washington University School of Law.
+
+\bibitem[Olejnik et~al., 2017]{conf/sp/OlejnikDMHKH17}
+Olejnik, K., Dacosta, I., Machado, J.~S., Huguenin, K., Khan, M.~E., and
+  Hubaux, J.-P. (2017).
+\newblock Smar{P}er: {C}ontext-aware and automatic runtime-permissions for
+  mobile devices.
+\newblock In {\em Proceedings of the IEEE Symposium on Security and Privacy},
+  pages 1058--1076. IEEE Computer Society.
+
+\bibitem[Ong et~al., 2017]{ong2017using}
+Ong, K., J{\"a}rvelin, K., Sanderson, M., and Scholer, F. (2017).
+\newblock Using information scent to understand mobile and desktop web search
+  behavior.
+\newblock In {\em Proceedings of the 40th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 295--304. ACM.
+
+\bibitem[Pagano and Maalej, 2013]{conf/re/PaganoM13}
+Pagano, D. and Maalej, W. (2013).
+\newblock User feedback in the appstore: An empirical study.
+\newblock In {\em Proceedings of the International Requirements Engineering
+  Conference}, pages 125--134. IEEE Computer Society.
+
+\bibitem[Page et~al., 1999]{page1999}
+Page, L., Brin, S., Motwani, R., and Winograd, T. (1999).
+\newblock The {PageRank} citation ranking: Bringing order to the web.
+\newblock Technical report, Stanford University.
+
+\bibitem[Pandita et~al., 2013]{conf/uss/PanditaXYEX13}
+Pandita, R., Xiao, X., Yang, W., Enck, W., and Xie, T. (2013).
+\newblock {WHYPER}: {T}owards automating risk assessment of mobile
+  applications.
+\newblock In {\em Proceedings of the USENIX Security Symposium}, pages
+  527--542. USENIX Association.
+
+\bibitem[Patel et~al., 2005]{patel2005systems}
+Patel, A.~J. et~al. (2005).
+\newblock Systems and methods for highlighting search results.
+\newblock US Patent 6,839,702.
+
+\bibitem[Pirolli and Card, 1999]{card:1999}
+Pirolli, P. and Card, S. (1999).
+\newblock Information foraging.
+\newblock {\em Psychological Review}, 106. 4:634--675.
+
+\bibitem[Popescu et~al., 2003]{popescu2003towards}
+Popescu, A.-M., Etzioni, O., and Kautz, H. (2003).
+\newblock Towards a theory of natural language interfaces to databases.
+\newblock In {\em Proceedings of the 8th international conference on
+  Intelligent user interfaces}, pages 149--157. ACM.
+
+\bibitem[Qu et~al., 2014]{conf/ccs/QuRZCZC14}
+Qu, Z., Rastogi, V., Zhang, X., Chen, Y., Zhu, T., and Chen, Z. (2014).
+\newblock Auto{C}og: {M}easuring the description-to-permission fidelity in
+  {Android} applications.
+\newblock In {\em Proceedings of the ACM Conference on Computer and
+  Communications Security}, pages 1354--1365. ACM.
+
+\bibitem[Robertson and Walker, 1994]{FT006}
+Robertson, S.~E. and Walker, S. (1994).
+\newblock Some simple effective approximations to the 2-poisson model for
+  probabilistic weighted retrieval.
+\newblock In {\em Proceedings of the International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 232--241. ACM.
+
+\bibitem[Roesner et~al., 2012]{conf/sp/RoesnerKMPWC12}
+Roesner, F., Kohno, T., Moshchuk, A., Parno, B., Wang, H.~J., and Cowan, C.
+  (2012).
+\newblock User-driven access control: {R}ethinking permission granting in
+  modern operating systems.
+\newblock In {\em Proceedings of the IEEE Symposium on Security and Privacy},
+  pages 224--238. IEEE Computer Society.
+
+\bibitem[Roy et~al., 2008]{Roy08}
+Roy, S.~B., Wang, H., Das, G., Nambiar, U., and Mohania, M.~K. (2008).
+\newblock Minimum-effort driven dynamic faceted search in structured databases.
+\newblock In {\em CIKM}, pages 13--22. ACM.
+
+\bibitem[Salton et~al., 1975]{361220}
+Salton, G., Wong, A., and Yang, C. (1975).
+\newblock A vector space model for automatic indexing.
+\newblock {\em Communications of the ACM}, 18(11):613--620.
+
+\bibitem[Schaub et~al., 2015]{conf/soups/SchaubBDC15}
+Schaub, F., Balebako, R., Durity, A.~L., and Cranor, L.~F. (2015).
+\newblock A design space for effective privacy notices.
+\newblock In {\em Proceedings of the Symposium On Usable Privacy and Security},
+  pages 1--17. USENIX Association.
+
+\bibitem[Shannon, 1948]{shannon1948mathematical}
+Shannon, C.~E. (1948).
+\newblock A mathematical theory of communication.
+\newblock {\em Bell system technical journal}, 27(3):379--423.
+
+\bibitem[Shannon et~al., 1951]{shannon1951mathematical}
+Shannon, C.~E., Weaver, W., and Burks, A.~W. (1951).
+\newblock The mathematical theory of communication.
+
+\bibitem[Siek et~al., 2005]{siek2005fat}
+Siek, K.~A., Rogers, Y., and Connelly, K.~H. (2005).
+\newblock Fat finger worries: how older and younger users physically interact
+  with pdas.
+\newblock In {\em IFIP Conference on Human-Computer Interaction}, pages
+  267--280. Springer.
+
+\bibitem[Slavin et~al., 2016]{slavin2016toward}
+Slavin, R., Wang, X., Hosseini, M.~B., Hester, J., Krishnan, R., Bhatia, J.,
+  Breaux, T.~D., and Niu, J. (2016).
+\newblock Toward a framework for detecting privacy policy violations in
+  {Android} application code.
+\newblock In {\em Proceedings of the International Conference on Software
+  Engineering}, pages 25--36. ACM.
+
+\bibitem[Tan et~al., 2014]{conf/chi/TanNTNTEW14}
+Tan, J., Nguyen, K., Theodorides, M., Negr{\'o}n-Arroyo, H., Thompson, C.,
+  Egelman, S., and Wagner, D.~A. (2014).
+\newblock The effect of developer-specified explanations for permission
+  requests on smartphone user behavior.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 91--100. ACM.
+
+\bibitem[Tian et~al., 2015]{tian2015characteristics}
+Tian, Y., Nagappan, M., Lo, D., and Hassan, A.~E. (2015).
+\newblock What are the characteristics of high-rated apps? {A} case study on
+  free {Android} applications.
+\newblock In {\em Proceedings of the IEEE International Conference on Software
+  Maintenance and Evolution}, pages 301--310. IEEE Computer Society.
+
+\bibitem[Toutanova et~al., 2003]{conf/naacl/ToutanovaKMS03}
+Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
+\newblock Feature-rich part-of-speech tagging with a cyclic dependency network.
+\newblock In {\em Proceedings of the Conference of the North American Chapter
+  of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 173--180. The Association for Computational Linguistics.
+
+\bibitem[van Zwol et~al., 2010]{Zwol}
+van Zwol, R., Sigurbjörnsson, B., Adapala, R., Pueyo, L.~G., Katiyar, A.,
+  Kurapati, K., Muralidharan, M., Muthu, S., Murdock, V., Ng, P., Ramani, A.,
+  Sahai, A., Sathish, S.~T., Vasudev, H., and Vuyyuru, U. (2010).
+\newblock Faceted exploration of image search results.
+\newblock In {\em WWW}, pages 961--970. ACM.
+
+\bibitem[Vandic et~al., 2013]{Vandic:2013:FSA:2505515.2505664}
+Vandic, D., Frasincar, F., and Kaymak, U. (2013).
+\newblock Facet selection algorithms for web product search.
+\newblock In {\em Proceedings of the 22Nd ACM International Conference on
+  Conference on Information \&\#38; Knowledge Management}, CIKM '13, pages
+  2327--2332, New York, NY, USA. ACM.
+
+\bibitem[Viennot et~al., 2014]{conf/sigmetrics/ViennotGN14}
+Viennot, N., Garcia, E., and Nieh, J. (2014).
+\newblock A measurement study of {Google Play}.
+\newblock In {\em Proceedings of the ACM SIGMETRICS International Conference on
+  Measurement and Modeling of Computer Systems}, pages 221--233. ACM.
+
+\bibitem[Votipka et~al., 2018]{background}
+Votipka, D., Micinski, K., Rabin, S.~M., Gilray, T., Mazurek, M.~M., and
+  Foster, J.~S. (2018).
+\newblock User comfort with {A}ndroid background resource accesses in different
+  contexts.
+\newblock In {\em Proceedings of the Symposium on Usable Privacy and Security}.
+  {USENIX} Association.
+
+\bibitem[Wang et~al., 2015]{conf/huc/WangHG15}
+Wang, H., Hong, J., and Guo, Y. (2015).
+\newblock Using text mining to infer the purpose of permission use in mobile
+  apps.
+\newblock In {\em Proceedings of the ACM International Joint Conference on
+  Pervasive and Ubiquitous Computing}, pages 1107--1118. ACM.
+
+\bibitem[Wijesekera et~al., 2015]{conf/uss/WijesekeraBHEWB15}
+Wijesekera, P., Baokar, A., Hosseini, A., Egelman, S., Wagner, D.~A., and
+  Beznosov, K. (2015).
+\newblock Android permissions remystified: {A} field study on contextual
+  integrity.
+\newblock In {\em Proceedings of the USENIX Security Symposium}, pages
+  499--514. USENIX Association.
+
+\bibitem[Wijesekera et~al., 2017]{conf/sp/WijesekeraBTREW17}
+Wijesekera, P., Baokar, A., Tsai, L., Reardon, J., Egelman, S., Wagner, D., and
+  Beznosov, K. (2017).
+\newblock The feasibility of dynamically granted permissions: {A}ligning mobile
+  privacy with user preferences.
+\newblock In {\em Proceedings of the IEEE Symposium on Security and Privacy},
+  pages 1077--1093. IEEE Computer Society.
+
+\bibitem[Wogalter et~al., 2002]{Wogalter2002ResearchbasedGF}
+Wogalter, M.~S., Conzola, V.~C., and Smith-Jackson, T.~L. (2002).
+\newblock Research-based guidelines for warning design and evaluation.
+\newblock volume~33, pages 219--230. Elsevier.
+
+\bibitem[Yang et~al., 2015]{yang2015appcontext}
+Yang, W., Xiao, X., Andow, B., Li, S., Xie, T., and Enck, W. (2015).
+\newblock App{C}ontext: {D}ifferentiating malicious and benign mobile app
+  behaviors using context.
+\newblock In {\em Proceedings of the International Conference on Software
+  Engineering}, pages 303--313. IEEE Computer Society.
+
+\bibitem[Yilmaz et~al., 2014]{conf/cikm/YilmazVCRB14}
+Yilmaz, E., Verma, M., Craswell, N., Radlinski, F., and Bailey, P. (2014).
+\newblock Relevance and effort: An analysis of document utility.
+\newblock In {\em CIKM}, pages 91--100. ACM.
+
+\bibitem[Zhai and Lafferty, 2001]{Zhai07noteson}
+Zhai, C. and Lafferty, J. (2001).
+\newblock Model-based feedback in the language modeling approach to information
+  retrieval.
+\newblock In {\em Proceedings of the International Conference on Information
+  and knowledge management}, pages 403--410. ACM.
+
+\bibitem[Zhang et~al., 2015]{conf/ccs/ZhangDFY15}
+Zhang, M., Duan, Y., Feng, Q., and Yin, H. (2015).
+\newblock Towards automatic generation of security-centric descriptions for
+  {Android} apps.
+\newblock In {\em Proceedings of the ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 518--529. ACM.
+
+\bibitem[Zhang et~al., 2017]{zhang2017information}
+Zhang, Y., Liu, X., and Zhai, C. (2017).
+\newblock Information retrieval evaluation as search simulation: A general
+  formal framework for ir evaluation.
+\newblock In {\em Proceedings of the ACM SIGIR International Conference on
+  Theory of Information Retrieval}, pages 193--200. ACM.
+
+\bibitem[Zimmeck et~al., 2017]{conf/ndss/ZimmeckWZI0SWSB17}
+Zimmeck, S., Wang, Z., Zou, L., Iyengar, R., Liu, B., Schaub, F., Wilson, S.,
+  Sadeh, N.~M., Bellovin, S.~M., and Reidenberg, J.~R. (2017).
+\newblock Automated analysis of privacy requirements for mobile apps.
+\newblock In {\em Proceedings of the Network and Distributed System Security
+  Symposium}. The Internet Society.
+
+\end{thebibliography}
