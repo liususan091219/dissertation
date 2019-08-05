@@ -1,0 +1,87 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Tables}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{List of Abbreviations}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{List of Symbols}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Chapter 1 Introduction}{}% 5
+\BOOKMARK [1][-]{section.1.1}{User Decision Making on Mobile Devices}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Bridging Knowledge Gap for Decision Making}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Background}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Studies in Decision Making}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{Traditional Decision Support Systems}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.3}{Data-Driven Information Systems}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.4}{Mobile User Interactions}{section.1.3}% 12
+\BOOKMARK [1][-]{section.1.4}{Definition of Decision Making and Decision Support Systems}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.5}{Motivation for Three Decision Making Problems Studied}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.6}{Organization of This Thesis}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.2}{Chapter 2 Assisting Shopping Decision Making with Numerical Faceted Search}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.2}{Related Work}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.3}{Formal Definition}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.4}{Evaluation}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{User Behavior Assumptions}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{Evaluation Metric}{section.2.4}% 22
+\BOOKMARK [1][-]{section.2.5}{Methods}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.5.1}{First Method: Dynamic Programming}{section.2.5}% 24
+\BOOKMARK [2][-]{subsection.2.5.2}{A Second Look: Parameterization}{section.2.5}% 25
+\BOOKMARK [2][-]{subsection.2.5.3}{Learning to Partition with Regression Tree}{section.2.5}% 26
+\BOOKMARK [2][-]{subsection.2.5.4}{Testing Time and Rounding}{section.2.5}% 27
+\BOOKMARK [1][-]{section.2.6}{Experiments}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.6.1}{Dataset}{section.2.6}% 29
+\BOOKMARK [2][-]{subsection.2.6.2}{Experimental Results}{section.2.6}% 30
+\BOOKMARK [1][-]{section.2.7}{Conclusion}{chapter.2}% 31
+\BOOKMARK [0][-]{chapter.3}{Chapter 3 Empirical Study on Knowledge Support for Security Decision Making}{}% 32
+\BOOKMARK [1][-]{section.3.1}{Runtime Permission Rationale: Introduction}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.2}{Background and Related Work}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.3}{Data Collection}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.1}{Crawling Apps}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.2}{Annotating Permission-group Rationales}{section.3.3}% 37
+\BOOKMARK [1][-]{section.3.4}{RQ1: Overall Explanation Frequency}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.5}{RQ2: Explanation Frequency for Non-straightforward vs. Straightforward Purposes}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.6}{RQ3: Incorrect Rationales}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.7}{RQ4: Rationale Specificity}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.8}{RQ5: Rationales vs. App Descriptions}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.9}{Threats to Validity}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.10}{Implications}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.11}{Conclusion}{chapter.3}% 45
+\BOOKMARK [0][-]{chapter.4}{Chapter 4 Recommending Explanation to Assist Security Decision Making}{}% 46
+\BOOKMARK [1][-]{section.4.1}{Similar-App Ranker}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.1.1}{Description Similarity}{section.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.1.2}{Title Similarity}{section.4.1}% 49
+\BOOKMARK [2][-]{subsection.4.1.3}{Permission Similarity}{section.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.1.4}{Category Similarity}{section.4.1}% 51
+\BOOKMARK [1][-]{section.4.2}{Identifying Permission-Explaining Sentences}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.2.1}{Breaking Sentences into Individual Purposes}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.2}{Matching Permission-Explaining Sentences}{section.4.2}% 54
+\BOOKMARK [1][-]{section.4.3}{Ranking Candidate Explaining Sentences}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.4}{Postprocessing Permission-Explaining Sentences}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.5}{Evaluation}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.5.1}{Dataset}{section.4.5}% 58
+\BOOKMARK [2][-]{subsection.4.5.2}{Extracting Gold-Standard Sentences}{section.4.5}% 59
+\BOOKMARK [2][-]{subsection.4.5.3}{Evaluation Metrics}{section.4.5}% 60
+\BOOKMARK [2][-]{subsection.4.5.4}{Alternative Approaches Under Comparison}{section.4.5}% 61
+\BOOKMARK [2][-]{subsection.4.5.5}{Automatic Quantitative Evaluation: Text-Similarity Scores}{section.4.5}% 62
+\BOOKMARK [2][-]{subsection.4.5.6}{Quantitative Evaluation: Manually-Judged Accuracy}{section.4.5}% 63
+\BOOKMARK [2][-]{subsection.4.5.7}{Qualitative Evaluation}{section.4.5}% 64
+\BOOKMARK [1][-]{section.4.6}{Limitations and Future Work}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.7}{Related Work}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.8}{Conclusion}{chapter.4}% 67
+\BOOKMARK [0][-]{chapter.5}{Chapter 5 Assisting Business Decision Making with Natural Language to SQL Interface}{}% 68
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.2}{Related Work}{chapter.5}% 70
+\BOOKMARK [1][-]{section.5.3}{Problem Formulation}{chapter.5}% 71
+\BOOKMARK [1][-]{section.5.4}{Rule-Based Matcher}{chapter.5}% 72
+\BOOKMARK [2][-]{subsection.5.4.1}{First Step: Improving the Recall}{section.5.4}% 73
+\BOOKMARK [2][-]{subsection.5.4.2}{Second Step: Improving the Accuracy}{section.5.4}% 74
+\BOOKMARK [1][-]{section.5.5}{Background on IRNet and Experimental Results}{chapter.5}% 75
+\BOOKMARK [1][-]{section.5.6}{An Empirical Study on IRNet Performance}{chapter.5}% 76
+\BOOKMARK [1][-]{section.5.7}{Plans for Future Work}{chapter.5}% 77
+\BOOKMARK [0][-]{chapter.6}{Chapter 6 Conclusion}{}% 78
+\BOOKMARK [1][-]{section.6.1}{General Lessons Learned on Data-Driven Knowledge Support for User Decision Making}{chapter.6}% 79
+\BOOKMARK [1][-]{section.6.2}{Extension of Current Work}{chapter.6}% 80
+\BOOKMARK [2][-]{subsection.6.2.1}{Assisting Shopping Decisions}{section.6.2}% 81
+\BOOKMARK [2][-]{subsection.6.2.2}{Assisting Security Decision Making}{section.6.2}% 82
+\BOOKMARK [2][-]{subsection.6.2.3}{Assisting Natural Language Interface}{section.6.2}% 83
+\BOOKMARK [1][-]{section.6.3}{Future Work on Data-Driven Decision Support}{chapter.6}% 84
+\BOOKMARK [2][-]{subsection.6.3.1}{Supporting Peer Review Decision Making}{section.6.3}% 85
+\BOOKMARK [2][-]{subsection.6.3.2}{Supporting Developer Search on Stack Overflow}{section.6.3}% 86
+\BOOKMARK [0][-]{appendix*.49}{References}{}% 87

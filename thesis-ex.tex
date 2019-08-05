@@ -16,6 +16,12 @@
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
+\usepackage[hidelinks=true]{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    allcolors={blue}
+}
 \usepackage{graphicx}
 %\usepackage{hyperref}
 \usepackage{textcomp}
@@ -53,8 +59,8 @@
 
 \begin{document}
 
-\title{Assisting the Communication between End Users and Mobile Systems with Natural Language Interfaces}
-\author{Xueqing Liu}
+\title{Data-Driven Assistance for User Decision Making on Mobile Devices}
+\author{Susan Xueqing Liu}
 \department{Computer Science}
 \schools{B.A., University of Columbia, 1981\\
          A.M., University of Illinois at Urbana-Champaign, 1986}
@@ -70,11 +76,11 @@
 %% Note that ProQuest truncates their abstracts at 350 words.
 \begin{abstract}
 
-Mobile devices are ubiquitous in people's lives. As mobile users are expected to exceed 4.5 billion in 2019, mobile devices are the closest approach for users to communicate with the outside world. It is important to ensure such communication goes smoothly. That is, on the one hand, users can easily and conveniently express their need to the system, and on the other hand, users should be able to understand and trust the requests and decisions from the system.
+Mobile devices are ubiquitous in people's lives. As mobile users are expected to exceed 4.5 billion in 2019, mobile devices frequently support users to conduct decision making tasks such as shopping and business decisions. Meanwhile, mobile users must also have to make decisions on the permissions to their personal data, e.g., location contact lists. It is therefore important to ensure that users can successfully make such decisions. 
 
-Same as in other software platforms, poor communications between users and mobile devices can result in the failure in requirements understanding, reduction of system reliability and lower user satisfaction. However, the communication on mobile devices is especially challenging due to three unique characteristics of mobile devices. First, it is more difficult to perform typing on mobile devices, also mobile users highly rely on voice input~\cite{voicesearch,googlevoicesearch}, the two facts limit the types of information that users can conveniently input on mobile devices (e.g., technical terms, programming language). Second, mobile screens are smaller, which limits the amount of information that users can focus on at the same time. Third, the challenges in mobile security and privacy directly caused the challenge in user trust, transparency issue and communication problems regarding how user privacy is protected over mobile devices~\cite{location}.
+However, user experience on decision making on mobile devices would be affected by the physical characteristics of mobile devices: they are small and it is difficult to type on these devices. Further more, both editing and navigation would be harder than that on computers. Such conditions may further amplify the commonly existed knowledge gap in decision making processes. With the reduced capability to query and edit, users thus explore less options and it is less likely for them to find the optimal option if it is not easy to find. Statistics show that during shopping, users often explore options first on mobile devices, and later switch to computer when they make the final decision. Can we make it very easy to make decisions on mobile devices? The key of assisting user decision making is to bridge the knowledge gap, for which we can provide external knowledge extracted from a large dataset using machine learning, data mining or information retrieval techniques. 
 
-This thesis seeks to provide a holistic picture on the new communication challenges brought by mobile devices. More specifically, it studies the communication through natural language because the natural language is the most common way for end users to communicate. This thesis is organized as follows. Chapter 1 introduces the background of formal communication models, then introduces the unique communication problem on mobile devices. The three challenges above are discussed from Chapter 2 to Chapter 4. For each challenge, we first provide an overview of the state of the art in existing literature, or perform empirical study to gain understanding on questions that are yet to be answered. Then, based on the analysis results, we identify feasible technical problems, and build solutions to support the communication process. Finally, Chapter 5 summarizes the remaining challenges, discusses the future work and draw the conclusion.
+This thesis studies three important real-world decision making problems for users on mobile devices: mobile shopping decisions (Chapter~\ref{ch2:shopping}), security decisions (Chapter~\ref{ch3:runtime} and Chapter~\ref{ch4:clap}), and business decisions with mobile business intelligence tools such as Microsoft Power BI (Chapter~\ref{ch5:nl2sql}). In each problem, we explore how to use three different strategies to bridge the knowledge gap: first, using summarization to allow the user to navigate the large database and explore ways for finding the optimal option (Chapter~\ref{ch2:shopping}), second, using crowd sourced decisions from similar examples to explain a blackbox operation (Chapter~\ref{ch3:runtime} and Chapter~\ref{ch4:clap}), and finally, using translation to bridge the gap between novice user and a technical domain (Chapter~\ref{ch5:nl2sql}). Finally, Chapter~\ref{ch6:conclusion} summarizes the remaining challenges, discusses the future work and draws the conclusion.
 
 \end{abstract}
 
@@ -134,15 +140,17 @@ This thesis seeks to provide a holistic picture on the new communication challen
 
 \mainmatter
 
-\input{tex/1-introduction}
+\input{tex/1-intro/1-intro}
 
-\input{tex/2-security}
+\input{tex/2-shopping/2-shopping}
 
-\input{tex/3-browsing}
+\input{tex/3-runtime/3-runtime}
 
-\input{tex/4-nl2sql}
+\input{tex/4-clap/4-clap}
 
-\input{tex/5-conclusion}
+\input{tex/5-nl2sql/5-nl2sql}
+
+\input{tex/6-conclusion/6-conclusion}
 
 \appendix*
 

@@ -1,0 +1,46 @@
+%!TEX root =../../thesis-ex.tex
+
+\section{Problem Formulation}
+
+The input of text-to-SQL contains the following components: a natural language question, a database schema that consists of one or more tables. For each table, the table name and a list of column names are also in the input. 
+
+The problem we study in this work is: given the natural language question, table names and column names, how can we most accurately extract the column and the values that are mentioned in the target SQL question? 
+
+The performance of column value matcher is evaluated by both accuracy and recall. The accuracy is the number of testing examples where the matched column value set containing values is the same as the ground truth column set containing values. In Spider, about 52\% examples mention at least one a column value. To achieve a good accuracy, the matcher should predict empty if no value is mentioned. 
+
+\section{Rule-Based Matcher}
+\label{sec:rule}
+
+As there exist a trade-off between precision and recall, we use the following strategy for the matcher: first, we build a module with high recall by including any case that could be a match; second, among the result found in the first step, build a classifier for filtering out the incorrect cases. 
+
+\subsection{First Step: Improving the Recall}
+
+To improve the recall, we need to reduce the false negative cases, i.e., the cases which should be matched but are not matched. There are two types of false negatives: string and number. Matching string is easier than matching numbers, because string values are usually copied in the question, while numbers may be mentioned differently. The reason is that many questions contain comparison between numbers, e.g., \texttt{how many department heads are older than 56?} It is possible, however, the column \texttt{age} does not contain a value which equals 56. To improve the recall, if a question contain a number, we extract all the columns whose values are numbers. For those columns, we keep the values whose scale is closest to any numbers mentioned in the input. 
+
+Meanwhile, sometimes the column that contain the value is \texttt{*}, e.g., for question \texttt{Which airline have less than 200 flight?} the SQL statement is \texttt{SELECT Airline FROM AIRLINES JOIN Flights HAVING count(*) < 200}. We include the column \texttt{*} if the natural language question mentions statements contains comparative statement. 
+
+The recall of this step is 94\%.
+
+\subsection{Second Step: Improving the Accuracy}
+
+The main idea of improving the accuracy in the first step is to compare between columns and eliminate the columns that matches less than other columns. Due to the dependency between table names, column names and values, it is difficult to find a unified criterion in deciding whether a column should be removed or not. Still consider the above example of selecting the column \texttt{*}. When the question asks \texttt{Which airline have less than 200 flights?}, our first step includes the column \texttt{*}. Meanwhile, there may exist another column called \texttt{flight number} containing a value 200, it is also included in our first step. Since there is only 1 number in the question, which column between \texttt{*} and \texttt{flight number} should we select? The answer may not always be \texttt{*}, because if the column \text{flight number} is \text{flight count} the correct SQL statement may be \texttt{count(flight number) < 200}. 
+
+To capture the dependency between columns, we compare similar columns and eliminate those which \emph{match less than} at least one of existing columns. Here the definition of \emph{match less} is:
+
+\textbf{Definition}. Given two column-value pairs \texttt{(col1, val1)} and \texttt{(col2, val2)}, if pair 1 better matches the sentence than pair 2 in both the column and value, we say pair 2 \emph{matches less} than pair 1. 
+
+The following rules capture how a column/value better matches a sentence than another column/value.
+
+\begin{enumerate}
+\item If \texttt{col1} is mentioned in the sentence while \texttt{col2} is not mentioned, \texttt{col1} matches better than \texttt{col2};
+\item If \texttt{val2} is a substring of \texttt{val1}, \texttt{val1} matches better than \texttt{val2};
+\item If both \texttt{val1} and \texttt{val2} are numbers, and \texttt{val1} is closer to the mentioned numbers in the sentence than \texttt{val2}, \texttt{val1} matches better than \texttt{val2}; 
+\item If and the average distance from words in \texttt{col1} to the target value in the sentence are shorter than that from \texttt{col2}, pair 2 matches less than pair 1;
+\item If \texttt{val1} and \texttt{val2} are equal numbers, and val1's number type matches val2's number type better, \texttt{val1} matches better than \texttt{val2}, here a number type can be age, year, quantity, etc.
+\end{enumerate}
+
+For examples, in the question \texttt{Find number of pet owned by student who are older than 20}, pair 1 = (student age, 20), pair 2 = (pet age, 3), pair 1 matches more than pair 2, because by rule 3, 20 is closer to 20 than 3, and by rule 4, the average distance of \emph{student age} to 20 is shorter than \emph{pet age} to 20. 
+
+We implement the rules using 900 LOC, the above rules achieve an accuracy of 92\% and false positive rate of 2.7\% on the development fold of Spider.
+
+\textbf{Discussion: Pros and Cons of using rule-based approach}. The rule-based approach is created mostly based on our observation for the output of the first step. Therefore, it is less general than, e.g., neural network approach. However, an advantage of rule-based approach is that we do not need to select the number of columns in the output. On the other hand, due to the dependency between columns, neural network approach works better under the ranking setting (than the prediction setting), and we still need to select the number of columns. 

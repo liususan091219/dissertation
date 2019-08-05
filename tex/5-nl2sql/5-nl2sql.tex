@@ -1,0 +1,54 @@
+%!TEX root =../../thesis-ex.tex
+
+\chapter{Assisting Business Decision Making with Natural Language to SQL Interface}
+\label{ch5:nl2sql}
+
+With the large penetration rate of mobile devices and gradually increasing market of mobile business intelligence, mobile data analysis tools such as Microsoft Power BI and Google Analytics has been popular among data analysts, allowing hundreds of millions of business users to analyze their data on the go. A convenient feature on these platforms is the natural language interface (NLI) feature, which allows mobile users to query the database in natural language sentences. 
+
+There exists a long history of research on translating natural language to database queries. Following the business intelligence services, in recent years, an increasing interests are on cross-domain translation with a large number of database schemas. In this section, we study the problem of cross-domain complex query translation, where schemas in the training fold, development fold, and testing fold are disjoint. We build our method on top of the current state-of-the-art text-to-SQL model named IRNet~\cite{guo2019towards}. By leveraging the value items in the database that match the natural language question, we achieve an exact matching accuracy of 68.2\%, 2.7\% higher than the that of IRNet (65.5\%). Then we conduct an analysis on the remaining errors and propose ideas on further improving the accuracy. 
+
+\section{Introduction}
+
+Recent years have witnessed great attention in the problem translating a natural language question to an SQL statement. By providing a natural language interface, users can easily query the database by typing a natural language questions. Natural language interface to database queries is frequently seen in business intelligence applications (e.g., Microsoft Power BI). An example of such interface is displayed in Figure~\ref{ch5:fig1:powerbi1}, where the user can type a natural language query in the ``question'' box, during this process the system interactively display the execution results of the translated SQL statement. The same feature has also been deployed on the corresponding app on mobile devices. The natural language interface feature has been well received from users. From one review for the mobile application of Google Analytics, one user commented: \emph{the best feature perhaps is the natural language query and it gives you the required report}. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.5\textwidth]{figure/chapter1/powerbi1_crop}
+\caption{A snapshot of Microsoft Power BI\label{ch5:fig1:powerbi1}}
+\end{figure}
+
+The problem of mapping a natural language question to a database query has been a long-standing problem, attracting attentions from multiple communities. The topic was studies in the 1970s, e.g., the Precise system~\cite{popescu2003towards}. In the past, however, most of the focuses were on building the interface with the same schema. For example, one of the datasets contain questions users could ask within a flight booking system. Therefore, the trained NLI usually cannot generalize to other schemas. Such NLI can usually achieve a good performance by practicing the following steps: first, enumerating potential SQL statement within the database; second, for each SQL statement, translating the SQL statement to its corresponding natural language question; third, for each natural language question, use crowd sourcing to obtain a large number of its paraphrased question, e.g., by replacing words with synonyms, or by restructuring the sentence. Because the problem is within a closed domain, there is usually a limited number of questions that the user can ask, allowing models to achieve good performances. 
+
+With the new business intelligence tools, however, it is quite clear that it is no longer enough for the NLI to only be able to answer questions within one schema, because it should be expected that user questions come from a new schema that is not seen in the training data. The problem of translating natural language to SQL statement, but also generalizing to unseen domains have been a trending topic in recent years. Multiple large-scale datasets are released since 2017, new results are published on arxiv in a monthly base. In these datasets, the schemas in the training fold and testing fold are fully separated, e.g., the Spider dataset contains 145 schemas in the training fold and 20 schemas in the development fold. 
+
+The Spider dataset is the larges cross-domain dataset that contains the most complex SQL structures. An earlier dataset, WikiSQL, contains 80K questions from 24K database schemas. However, this dataset is over-simplified. Each schema contains only 1 table, and all the questions come from the same template, i.e., \texttt{SELECT (agg\_func(column))+ FROM table WHERE (agg\_func(column) operator value)+}. As a result, the trained NLI does not have the ability to tell important information such as whether a \texttt{WHERE} condition is included in the question (it just assumes it does). The Spider dataset, on the other hand, contain more complex queries. It not only include queries which both include and does not include there \texttt{WHERE} statement, but also other SQL keywords such as \texttt{GROUP BY, HAVING} and nested queries. 
+
+As a result, in this work, we explore how to improve the performance of natural language to SQL prediction on the Spider dataset. State-of-the-art approaches achieve approximately 64\% exact matching accuracy~\cite{guo2019towards}. To improve the performance, we first need to identify the deficiency of the current model. A major challenge in Spider is to how predict the columns correctly~\cite{yu2018syntaxsqlnet}:
+
+\begin{enumerate}
+\item \texttt{Give the flight numbers of flights landing at APG}
+\item \texttt{What is the last name of the student who has a cat that is 3 year old}
+\end{enumerate}
+
+In the first example, the correct SQL statement is \texttt{SELECT flightNo from Flights WHERE DestAirport = APG}. However, in one of previous results~\cite{yu2018syntaxsqlnet}, the column DestAirport has been wrongly predicted as FlightNo. In the second example, the correct statement is \texttt{SELECT T1.lname FROM student AS T1 JOIN has\_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pet\_age  =  3 AND T3.pettype  =  'cat'}. However, the column \texttt{pet\_age} is often wrongly predicted as the age of the student. 
+
+Intuitively, the column prediction results can benefit from knowing the column value. In the first example, if we know that APG must be the name or the abbreviation of an airport, it is less likely to wrongly select the column FlightNo. In the second example, if we know that student ages are usually larger than 3, it is more likely to weight pet\_age more than student\_age. 
+
+In other words, being aware of the column values can help us better predict columns. The values in database tables are often often named entities, or numbers. Such values are usually more distinguishable than the column value names and table names, when human reads the natural language question, the first thing to notice is also often the named entity values in the sentences. Given the input sentence, if we can know A. what values it mentions, and B. which columns contain these values, intuitively it should help improve the column predictor by avoiding the mistakes in the above two examples. 
+
+First, we can reduce the question to a simpler question:
+
+RQ1. If we knew both A and B perfectly, how much does it help with improving the state-of-the-art result on Spider?
+
+We conduct experiments by injecting the ground truth column values to the state-of-the-art approach IRNet~\cite{guo2019towards} and observe 3.5\% increase in the exact matching accuracy (from 65.5\% to 69\%) in the development accuracy. In reality, however, we do not know the the ground truth column values in the development fold. One easier approach for obtaining such values is to match the database cells against the natural language question. 
+
+RQ2. If we can have access to the database values, how much does it help in improving the state-of-the-art results?
+
+To answer this question, we develop a rule-based keywords matcher to find the potentially matched values. The matcher can achieve 94\% recall, but it contains many false positive results, especially when the database is larger. For example, in the database wta\_1, the question \texttt{What is the name of the winner who has won the most matches and how many rank point does this player have?} was matched by the column \texttt{person LastName} and value \texttt{won}. To remove these false positive results, we develop another rule-based module for post-processing the matcher result. For example, in this example, our module can detect that the column name \texttt{person LastName} appears as the subject of the questioning word \emph{what}, therefore it should appear after SELECT instead of WHERE, therefore we remove the column. The post-processing finally achieves 93.6\% accuracy, and 1.9\% false positive rate. Notice that some databases are absent in the dataset, in those cases it is impossible to achieve 100\% accuracy. After injecting the column values found by our rule-based matcher, we observe 2.7\% increase in the exact matching accuracy (68.2\%). A complete description of the modules in our rule-based matcher is described in Section~\ref{sec:rule}. 
+
+After answering the two questions, we ask one question: what mistakes does IRNet make in the remaining 32.8\% erroneous cases? If we can achieve close to 100\% accuracy in column matching, how much overall accuracy does it make? What are the most frequent mistakes? To answer this question, we conduct an empirical study in Section~\ref{sec:study}. 
+
+\input{tex/5-nl2sql/5-relwork.tex}
+\input{tex/5-nl2sql/5-rule.tex}
+\input{tex/5-nl2sql/5-exp.tex}
+\input{tex/5-nl2sql/5-rq3.tex}

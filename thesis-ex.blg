@@ -4,75 +4,75 @@ The top-level auxiliary file: thesis-ex.aux
 A level-1 auxiliary file: Appendix.tex.aux
 The style file: apalike.bst
 Database file #1: thesisbib.bib
-Repeated entry---line 298 of file thesisbib.bib
+Repeated entry---line 557 of file thesisbib.bib
  : @inproceedings{clap
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1758 of file thesisbib.bib
+Repeated entry---line 2120 of file thesisbib.bib
  : @misc{facebookleak
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1764 of file thesisbib.bib
+Repeated entry---line 2126 of file thesisbib.bib
  : @inproceedings{chen2013contextual
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1826 of file thesisbib.bib
+Repeated entry---line 2188 of file thesisbib.bib
  : @misc{whyper
  :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1832 of file thesisbib.bib
+Repeated entry---line 2194 of file thesisbib.bib
  : @misc{whypertool
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1975 of file thesisbib.bib
+Repeated entry---line 2337 of file thesisbib.bib
  : @inproceedings{conf/soups/FeltHEHCW12
  :                                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1984 of file thesisbib.bib
+Repeated entry---line 2346 of file thesisbib.bib
  : @inproceedings{conf/chi/KelleyCS13
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2002 of file thesisbib.bib
+Repeated entry---line 2364 of file thesisbib.bib
  : @inproceedings{conf/huc/LinSALHZ12
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2012 of file thesisbib.bib
+Repeated entry---line 2374 of file thesisbib.bib
  : @inproceedings{conf/huc/LiGC16
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2031 of file thesisbib.bib
+Repeated entry---line 2393 of file thesisbib.bib
  : @inproceedings{conf/soups/LinLSH14
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2041 of file thesisbib.bib
+Repeated entry---line 2403 of file thesisbib.bib
  : @inproceedings{conf/ccs/FeltCHSW11
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2089 of file thesisbib.bib
+Repeated entry---line 2451 of file thesisbib.bib
  : @inproceedings{conf/icse/GorlaTGZ14
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2111 of file thesisbib.bib
+Repeated entry---line 2473 of file thesisbib.bib
  : @inproceedings{journals/tocs/EnckGHTCCJMS14
  :                                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2141 of file thesisbib.bib
+Repeated entry---line 2503 of file thesisbib.bib
  : @inproceedings{conf/ccs/QuRZCZC14
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2173 of file thesisbib.bib
+Repeated entry---line 2535 of file thesisbib.bib
  : @inproceedings{conf/uss/PanditaXYEX13
  :                                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2183 of file thesisbib.bib
+Repeated entry---line 2545 of file thesisbib.bib
  : @inproceedings{conf/chi/TanNTNTEW14
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2218 of file thesisbib.bib
+Repeated entry---line 2580 of file thesisbib.bib
  : @misc{permgroup
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2311 of file thesisbib.bib
+Repeated entry---line 2673 of file thesisbib.bib
  : @inproceedings{yang2015appcontext
  :                                  ,
 I'm skipping whatever remains of this entry
@@ -86,20 +86,33 @@ A bad cross reference---entry "conf/sigir/Azzopardi14"
 refers to entry "conf/sigir/2014", which doesn't exist
 A bad cross reference---entry "conf/cikm/YilmazVCRB14"
 refers to entry "conf/cikm/2014", which doesn't exist
+A bad cross reference---entry "conf/sigir/ZhangZ15"
+refers to entry "conf/sigir/2015", which doesn't exist
+A bad cross reference---entry "conf/vldb/JagadishKMPSS98"
+refers to entry "conf/vldb/98", which doesn't exist
+A bad cross reference---entry "conf/pods/AcharyaDHLS15"
+refers to entry "conf/pods/2015", which doesn't exist
+A bad cross reference---entry "conf/sigmod/MuralikrishnaD88"
+refers to entry "conf/sigmod/88", which doesn't exist
+A bad cross reference---entry "yue2007support"
+refers to entry "conf/sigir/2007", which doesn't exist
+A bad cross reference---entry "AROUXET2011"
+refers to entry "10.1590/S1807-03022011000100009", which doesn't exist
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "conf/cikm/2010"
+Warning--I didn't find a database entry for "10.1590/S1807-03022011000100009"
+Warning--I didn't find a database entry for "conf/sigir/2015"
 Warning--I didn't find a database entry for "conf/sigir/2014"
 Warning--I didn't find a database entry for "conf/cikm/2014"
+Warning--I didn't find a database entry for "conf/sigir/2007"
 Warning--I didn't find a database entry for "conf/cikm/2008"
 Warning--I didn't find a database entry for "conf/www/2010"
-Warning--to sort, need author or key in voicesearch
-Warning--to sort, need author or key in googlevoicesearch
-Warning--to sort, need author or key in location
-Warning--to sort, need author or key in explainableautonomousdriving
-Warning--to sort, need author or key in automateddecision
-Warning--to sort, need author or key in weavernote
-Warning--to sort, need author or key in smartphonechart
-Warning--to sort, need author or key in mobileecom
-Warning--to sort, need author or key in mobiletyping
+Warning--I didn't find a database entry for "conf/pods/2015"
+Warning--I didn't find a database entry for "conf/sigmod/88"
+Warning--I didn't find a database entry for "conf/vldb/98"
+Warning--to sort, need author or key in mcommerce53
+Warning--to sort, need author or key in phone_penetration
+Warning--to sort, need author or key in mobilebi
 Warning--to sort, need author or key in facebookleak
 Warning--to sort, need author or key in permgroup
 Warning--to sort, need author or key in shouldshow
@@ -126,6 +139,7 @@ Warning--empty year in alarmmon
 Warning--empty year in clapproj
 Warning--empty year in facebookleak
 Warning--empty year in geolite
+Warning--empty year in phone_penetration
 Warning--empty year in idf
 Warning--empty year in jaccard
 Warning--empty year in Dawid:Skene:79
@@ -139,51 +153,53 @@ Warning--empty year in getcurrentlocation
 Warning--empty year in whyper
 Warning--empty year in whypertool
 Warning--empty year in word2vec
-Warning--empty journal in hahn2014survey
+Warning--empty booktitle in Karimzadehgan:2010:ETI:1871437.1871631
 Warning--empty booktitle in Hearst2008UI
+Warning--empty journal in hwang2019achieving
+Warning--empty booktitle in järvelin2002cumulated
+Warning--empty journal in lin2017location
 Warning--empty booktitle in Nissenbaum:2004
-Warning--empty journal in shannon1951mathematical
 Warning--empty booktitle in Wogalter2002ResearchbasedGF
 Warning--can't use both volume and number fields in Wogalter2002ResearchbasedGF
-You've used 119 entries,
+You've used 149 entries,
             1935 wiz_defined-function locations,
-            1081 strings with 27551 characters,
-and the built_in function-call counts, 54429 in all, are:
-= -- 5605
-> -- 2068
-< -- 92
-+ -- 755
-- -- 721
-* -- 4154
-:= -- 8572
-add.period$ -- 437
-call.type$ -- 119
-change.case$ -- 949
-chr.to.int$ -- 115
-cite$ -- 204
-duplicate$ -- 2405
-empty$ -- 3897
-format.name$ -- 838
-if$ -- 11508
-int.to.chr$ -- 5
+            1275 strings with 34374 characters,
+and the built_in function-call counts, 70773 in all, are:
+= -- 7203
+> -- 2891
+< -- 122
++ -- 1046
+- -- 1004
+* -- 5447
+:= -- 11260
+add.period$ -- 533
+call.type$ -- 149
+change.case$ -- 1234
+chr.to.int$ -- 143
+cite$ -- 225
+duplicate$ -- 3084
+empty$ -- 4963
+format.name$ -- 1172
+if$ -- 14899
+int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 88
-newline$ -- 609
-num.names$ -- 268
-pop$ -- 1093
+missing$ -- 125
+newline$ -- 751
+num.names$ -- 383
+pop$ -- 1437
 preamble$ -- 1
-purify$ -- 949
+purify$ -- 1236
 quote$ -- 0
-skip$ -- 1816
+skip$ -- 2358
 stack$ -- 0
-substring$ -- 3706
-swap$ -- 677
-text.length$ -- 69
+substring$ -- 4722
+swap$ -- 885
+text.length$ -- 89
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 710
-warning$ -- 54
-while$ -- 369
+type$ -- 886
+warning$ -- 51
+while$ -- 500
 width$ -- 0
-write$ -- 1576
-(There were 23 error messages)
+write$ -- 1967
+(There were 29 error messages)

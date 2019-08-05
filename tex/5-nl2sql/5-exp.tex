@@ -1,0 +1,16 @@
+%!TEX root =../../thesis-ex.tex
+
+\section{Background on IRNet and Experimental Results}
+\label{sec:exp}
+
+IRNet is currently the state-of-the-art model on Spider. The main idea of IRNet is to use an intermediate representation which captures the target SQL statement. IRNet consists of 11 actions, representing the grammar rules in SQL. For each action, IRNet builds a classifier to select from a list of action values, e.g., \{UNION, INTERSECTION, NONE, EXCEPT\}. Most of the actions contains a small number of options, except for the column and table predictor. For column predictor, IRNet uses a pointer net which select from all the columns in the table. 
+
+IRNet's column prediction result is significantly improved by leveraging BERT, mainly in the column and table prediction results. However, the result still has less than 65\% accuracy in the column prediction for the \texttt{WHERE} statements. For example, given the question \texttt{Find number of pet owned by student who are older than 20}, IRNet selects the column pet\_age instead of student\_age. To further improve the column prediction results, IRNet leverages a second external column predictor to select a ranked list of columns that are most likely the column results. It then use the top $k+1$ columns as the candidate, where $k$ is the number of columns in the ground truth. When training IRNet, the column predictor select only from the $k + 1$ columns. 
+
+If the external column predictor can achieve 100\% accuracy, IRNet will not select a column that is not mentioned in the ground truth, as a result, it is critical to improve the results of the column predictor. 
+
+\textbf{Adding column values to IRNet}. After extracting columns with the column matcher, we insert the column values to IRNet + BERT simply by appending the value to the end of the column names, e.g., for the question \texttt{Find number of pet owned by student who are older than 20}, the column \texttt{age} becomes \texttt{age 20} and table \texttt{student} becomes \texttt{student age 20}. 
+
+The external column predictor achieves 80.4\% accuracy, if not leveraging the values. This column predictor gives rise to a 64\% accuracy in the exact matching result of IRNet. Here the accuracy is defined by the proportion of examples where the predicted column set exactly matches the ground truth column set. By leveraging values, we are able to achieve a 85.9\% accuracy in the external column predictor and a 68.2\% accuracy in the IRNet result. 
+
+A question here is which column values to add to the training data. Because in the training set, we do have access to the ground truth, we can add either the ground truth column values or the matched column values (although when testing we can only add the predicted column values). We find that it works better if we add the ground truth column values to the training data. Meanwhile, we also test some simple data augmentation: for each training question, if it contains at least a column value, we add two copies of the question, first the one with the column value, second the one without the column value. We hope that this approach could help so that if the column value matcher misses a value in the test example, it can still learn from the training data without the values. However, we have not observed significant improvement. 

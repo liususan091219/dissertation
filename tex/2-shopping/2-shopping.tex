@@ -1,7 +1,7 @@
-%!TEX root =../thesis-ex.tex
+%!TEX root =../../thesis-ex.tex
 
-\chapter{Assisting Browsing and Navigation in Search Engine}
-\label{ch:browsing}
+\chapter{Assisting Shopping Decision Making with Numerical Faceted Search}
+\label{ch2:shopping}
 
 Faceted navigation is a very useful component in today's search engines. It is especially useful when user has an exploratory information need or prefer certain attribute values than others. Existing work has tried to optimize faceted systems in many aspects, but little work has been done on optimizing numerical facet ranges (e.g., price ranges of product). In this paper, we introduce for the first time the research problem on numerical facet range partition and formally frame it as an optimization problem. To enable quantitative evaluation of a partition algorithm, we propose an evaluation metric to be applied to search engine logs. We further propose two range partition algorithms that computationally optimize the defined metric. Experimental results on a two-month search log from a major e-Commerce engine show that our proposed method can significantly outperform baseline.
 
@@ -113,6 +113,7 @@ We further assume the number of output ranges is given as an input parameter $k$
 To summarize the input and output of a range partition algorithm: \textbf{Input}: (1) number of output ranges $k$; (2) query $q^i$; (3) ranking algorithm and ranked list $E^i$; numerical facet value of each $e\in E^i$, denoted as $v(e)$ (if $e$ does not have the facet, $v(e)$ is empty); rank of each $e\in E^i$, denoted as $rank(e)$. \textbf{Output}: $k-1$ separating values $S^i = (s_1, \cdots, s_{k-1})\in \mathbb{R}^{k-1}$, where $s_1 < \cdots < s_{k-1}$.
 
 \section{Evaluation}
+\label{ch2:eval}
 
 In this section, we propose and formally define our evaluation techique and metric for range partition algorithms. 
 
@@ -138,7 +139,7 @@ There are cases where our assumptions may not be true. For example, if the numer
 %This is essentially the same argument as the Cranfield evaluation~\cite{SparckJones:1997:RIR:275537}, where we obtain a reusable test collection for comparing different algorithms at the cost of making a few unrealistic assumptions about users and relevance judgement. 
 
 \subsection{Evaluation Metric}
-\label{sec:metric}
+\label{ch2:metric}
 
 \newcommand\rrank{\mathop{\mbox{$Refined$-$Rank$}}}
 It is a common practice in information science to evaluate a system's performance using user's cost and gain. Previous evaluation methods can be categorized into three groups. First, evaluate cost and gain separately~\cite{conf/cikm/YilmazVCRB14}. Since our goal is comparative study, this approach is not informative enough. Second, use the difference between gain and cost, e.g., gain divided by cost~\cite{card:1999}. Although thereby we only have one score, this approach will likely introduce bias since gain and cost may not be on the same scale. The third approach is to control one variable while examining the other. In our problem, it is easier to control and measure gain, since it can be simply defined as the number of entities user has clicked so far. Meanwhile, reusing search log has added challenge to measuring cost of faceted system. Although cost in a no-facet search engine can be simply estimated as number of entities above relevant ones; in engines with faceted system, however, if the number of relevant entities (i.e., user clicks) is larger than 1, this definition is ambiguous, because there are many possible cases of user activity, and cost in each case is different \footnote{For example, under one query, user clicked on entity $e_a$ and $e_b$, and they are in range $a$ and $b$ (different). Case 1: user selects both $a$ and $b$,  browse until finding both $e_a$ and $e_b$. Case 2: user selects $a$, browse until finding $e_a$, unselect $a$ and select $b$, browse until finding $e_b$. Case 3: user selects $a$, browse until finding $e_a$, select $b$, browse until finding $e_b$. }.
@@ -180,7 +181,7 @@ In Section~\ref{sec:intro}, we discuss the quantile method, which partitions $E^
 An idea is to collect another search log for training, since it can help us make better estimation on the testing (evaluation) data. In this section, we propose two methods to leverage the training data. 
 
 \subsection{First Method: Dynamic Programming}
-\label{sec:firstmethod}
+\label{ch2:dp}
 Since we have defined ARR (Equation~\ref{eq:arr}) as our evaluation metric and the smaller the better, our range partition algorithm should try to minimize ARR and RR$_i$. Imagine if the clicked entity $e^i$ was known, minimizing RR$_i$ means we should make one range only contain $e^i$ itself. RR$_i$ in this imaginary scenario is equal to 1. In reality, although the clicked entity is not known, we can estimate the click probability using the extra search log (i.e., training data). Denote the estimated click probability on entity $e$ as $p(e)$ (so that $\sum_{e\in E^i} p(e) = 1$). Then the expected RR$_i$ for $S=(s_1, \cdots, s_{k-1})$ is:
 
 \vspace{-0.09in}
@@ -198,7 +199,7 @@ From example above, we can see that in general, minimizing Equation~\ref{eq:obje
 One may wonder why we do not use greedy algorithm here. There are two reasons: first, greedy algorithm generally leads to sub-optimal solutions\footnote{An example: suppose $E^i$ contains four entities (ordered by rank) $e_1, e_2, e_3$ and $e_4$. $v(e_1)=400, v(e_2)=100, v(e_3)=200, v(e_4)=300$, $p(e_1)=p(e_2)=0.2,p(e_3)=p(e_4)=0.3, k=3$. Optimal solution is 1.2 but greedy algorithm's solution is 1.3.}; second, the computational cost of greedy algorithm is $O(k|E^i| + |E^i|^3\log{|E^i|})$, which remains large since it still has to compute ranks of each entity in each possible range. 
 
 \subsection{A Second Look: Parameterization}
-\label{sec:percentage}
+\label{ch2:percentage}
 
 In Section~\ref{sec:firstmethod}, we propose to suggest $S^i$ that optimizes the expected RR$_i$ for each time $i$. Yet with access to both training and testing data, we have a second thought: can we build a machine learning model to study this problem? 
 

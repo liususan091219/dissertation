@@ -1,0 +1,33 @@
+%!TEX root =../../thesis-ex.tex
+
+\section{An Empirical Study on IRNet Performance}
+\label{ch5:sec:study}
+
+After achieving 68.2\% accuracy, we move on to study how to further improve the performance. Text-to-SQL is a complex problem whose accuracy relies on multiple modules. Despite the fact that there is a large gap due to the column mismatch, we ask the question: if the columns are perfectly matched, does that make the performance close to 100\%? 
+
+To answer this question, we first pretend the external column selector can select exactly the ground truth column set, so that IRNet will not have false positive column predictions. Our experiment shows that by doing so, IRNet achieves a 72.4\% accuracy, which means even if the external column predictor is 100\% correct, there is still a 27.6\% gap towards 100\% accuracy. 
+
+% We find that the remaining erroneous cases can be categorized into two categories: first, the sketch is predicted correctly, but some column predictions or table predictions are incorrect; second, the sketch is predicted incorrectly. We separate the two cases using one criterion: whether the rule label sequence of prediction equals that of ground truth. 
+
+% \textbf{Not Equal:} there are 14\% cases where the sequence lengths are not equivalent. 3.5\% are due to wrong IUEN prediction (\texttt{UNION, EXCEPT, INTERSECTION}), 6.2\% are cause by the wrong prediction of Filter; 2.3\% are cause by a wrong prediction in the column number; 1.6\% are cause by the mistakes in superlative (i.e., \texttt{DESC LIMIT}).
+
+% \textbf{Equal:} there are 13\% cases where the sequence lengths are equivalent. 5.4\% are caused by a wrong table prediction, 5.05\% are cause by a wrong aggregation prediction, 1.9\% are caused by a wrong column predictor. 
+
+If we have access to a perfect external column selector, does that make the column selection 100\% correct? Our experiment shows this is not the case. There still exist 11\% cases where the column predictor inside IRNet would miss cases. For example:
+
+\texttt{Example 1. How much does the most recent treatment cost?}
+
+In the above example, the correct SQL statement is \texttt{SELECT cost\_of\_treatment FROM Treatments ORDER BY date\_of\_treatment DESC LIMIT 1}, therefore the correct column set is \texttt{cost\_of\_treatment} and \texttt{date\_of\_treatment}; however the prediction selects only \texttt{cost\_of\_treatment}. However, the question contains a word \texttt{recent}, which means there has to be a column or table that represents the time. If non of the columns predicted indicate time, there must be something missing and therefore the SQL statement is incorrect. 
+
+This result shows that even after leveraging BERT and allowing it to choose from a perfect external column predictor, IRNet still make a significant number of mistakes in the column selection results. The fact that BERT can contextually represent the model does not mean it will always succeed in SQL prediction. The pretrained BERT containing only 30K vocabularies may have been not powerful enough to adapt to the specific domains in the schemas. For example, one of the questions is \texttt{How many students' sex are M?} where the \texttt{M} stands for \texttt{Male}. Without further information, it is difficult to make that inference. 
+
+\section{Plans for Future Work}
+\label{sec:rq3}
+
+Given the analysis in Section~\ref{ch5:sec:study}, we plan to by explore the problem of how to increase the recall of column prediction if we allow IRNet to have a perfect external column predictor. For example, one idea is to check whether all words in a sentence have been included in the column prediction. We make the following hypothesis:
+
+\textbf{Hypothesis 1}. If a column is mentioned in the question, it must exist in the SQL statement;
+
+\textbf{Hypothesis 2}. If a column is mentioned in the SQL statement, it must have been mentioned either explicitly or implicitly in the question. 
+
+For example, the observation above that identifies a missing word \texttt{treatment} would be detected as an error case based on Hypothesis 1. We can keep track of all the words in a sentence and mask those words that have already been selected, once the column selector is done, we observe the sentence and see whether some words are missing. Such signals can be leveraged as feedback to a reinforcement loop like in \cite{zhong2017seq2sql}. 

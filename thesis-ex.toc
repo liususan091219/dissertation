@@ -1,80 +1,95 @@
-\contentsline {chapter}{List of Tables}{v}
-\contentsline {chapter}{List of Figures}{vi}
-\contentsline {chapter}{List of Abbreviations}{vii}
-\contentsline {chapter}{List of Symbols}{viii}
-\contentsline {chapter}{Chapter\ 1\hskip 1em\relax Introduction}{1}
-\contentsline {section}{\numberline {1.1}Why Do Human Communicate?}{2}
-\contentsline {section}{\numberline {1.2}The Importance of Studying System-User Communication}{3}
-\contentsline {section}{\numberline {1.3}Shannon-Weaver Communication Model}{4}
-\contentsline {section}{\numberline {1.4}System-User Communication in Natural Language}{6}
-\contentsline {subsection}{\numberline {1.4.1}Natural Language Input Interface}{6}
-\contentsline {subsection}{\numberline {1.4.2}Natural Language Output Interface}{6}
-\contentsline {section}{\numberline {1.5}An Overview of the Mobile Systems and User Interfaces}{7}
-\contentsline {section}{\numberline {1.6}The Challenges of End User Communications Over Mobile Devices}{8}
-\contentsline {subsection}{\numberline {1.6.1}Challenge 1: Making Security Decisions}{8}
-\contentsline {subsection}{\numberline {1.6.2}Challenge 2: e-Commerce Shopping}{9}
-\contentsline {subsection}{\numberline {1.6.3}Challenge 3: Performing Data Analysis}{10}
-\contentsline {section}{\numberline {1.7}Thesis Overview}{11}
-\contentsline {chapter}{Chapter\ 2\hskip 1em\relax Assisting Security Decision Making with Natural Language Explanations}{13}
-\contentsline {section}{\numberline {2.1}Runtime Permission Rationale: Introduction}{13}
-\contentsline {section}{\numberline {2.2}Background and Related Work}{16}
-\contentsline {section}{\numberline {2.3}Data Collection}{18}
-\contentsline {subsection}{\numberline {2.3.1}Crawling Apps}{18}
-\contentsline {subsection}{\numberline {2.3.2}Annotating Permission-group Rationales}{18}
-\contentsline {section}{\numberline {2.4}RQ1: Overall Explanation Frequency}{19}
-\contentsline {section}{\numberline {2.5}RQ2: Explanation Frequency for Non-straightforward vs. Straightforward Purposes}{20}
-\contentsline {section}{\numberline {2.6}RQ3: Incorrect Rationales}{24}
-\contentsline {section}{\numberline {2.7}RQ4: Rationale Specificity}{26}
-\contentsline {section}{\numberline {2.8}RQ5: Rationales vs. App Descriptions}{27}
-\contentsline {section}{\numberline {2.9}Threats to Validity}{28}
-\contentsline {section}{\numberline {2.10}Implications}{28}
-\contentsline {section}{\numberline {2.11}Conclusion}{29}
-\contentsline {section}{\numberline {2.12}CLAP: Introduction}{30}
-\contentsline {section}{\numberline {2.13}Similar-App Ranker}{32}
-\contentsline {subsection}{\numberline {2.13.1}Description Similarity}{33}
-\contentsline {subsection}{\numberline {2.13.2}Title Similarity}{34}
-\contentsline {subsection}{\numberline {2.13.3}Permission Similarity}{34}
-\contentsline {subsection}{\numberline {2.13.4}Category Similarity}{35}
-\contentsline {section}{\numberline {2.14}Identifying Permission-Explaining Sentences}{35}
-\contentsline {subsection}{\numberline {2.14.1}Breaking Sentences into Individual Purposes}{36}
-\contentsline {subsection}{\numberline {2.14.2}Matching Permission-Explaining Sentences}{36}
-\contentsline {section}{\numberline {2.15}Ranking Candidate Explaining Sentences}{37}
-\contentsline {section}{\numberline {2.16}Postprocessing Permission-Explaining Sentences}{39}
-\contentsline {section}{\numberline {2.17}Evaluation}{39}
-\contentsline {subsection}{\numberline {2.17.1}Dataset}{40}
-\contentsline {subsection}{\numberline {2.17.2}Extracting Gold-Standard Sentences}{40}
-\contentsline {subsection}{\numberline {2.17.3}Evaluation Metrics}{42}
-\contentsline {subsection}{\numberline {2.17.4}Alternative Approaches Under Comparison}{43}
-\contentsline {subsection}{\numberline {2.17.5}Automatic Quantitative Evaluation: Text-Similarity Scores}{44}
-\contentsline {subsection}{\numberline {2.17.6}Quantitative Evaluation: Manually-Judged Accuracy}{45}
-\contentsline {subsection}{\numberline {2.17.7}Qualitative Evaluation}{47}
-\contentsline {section}{\numberline {2.18}Limitations and Future Work}{48}
-\contentsline {section}{\numberline {2.19}Related Work}{49}
-\contentsline {section}{\numberline {2.20}Conclusion}{50}
-\contentsline {chapter}{Chapter\ 3\hskip 1em\relax Assisting Browsing and Navigation in Search Engine}{51}
-\contentsline {section}{\numberline {3.1}Introduction}{51}
-\contentsline {section}{\numberline {3.2}Related Work}{54}
-\contentsline {section}{\numberline {3.3}Formal Definition}{55}
-\contentsline {section}{\numberline {3.4}Evaluation}{56}
-\contentsline {subsection}{\numberline {3.4.1}User Behavior Assumptions}{56}
-\contentsline {subsection}{\numberline {3.4.2}Evaluation Metric}{57}
-\contentsline {section}{\numberline {3.5}Methods}{58}
-\contentsline {subsection}{\numberline {3.5.1}First Method: Dynamic Programming}{58}
-\contentsline {subsection}{\numberline {3.5.2}A Second Look: Parameterization}{60}
-\contentsline {subsubsection}{Optimizing ARR with Respect to $R$}{60}
-\contentsline {subsubsection}{Optimizing the Surrogate Objective Function}{61}
-\contentsline {subsubsection}{Bounds on $C_n(R)$}{63}
-\contentsline {subsection}{\numberline {3.5.3}Learning to Partition with Regression Tree}{64}
-\contentsline {subsection}{\numberline {3.5.4}Testing Time and Rounding}{65}
-\contentsline {section}{\numberline {3.6}Experiments}{66}
-\contentsline {subsection}{\numberline {3.6.1}Dataset}{66}
-\contentsline {subsection}{\numberline {3.6.2}Experimental Results}{66}
-\contentsline {subsubsection}{Overall Comparative Study}{67}
-\contentsline {subsubsection}{Comparative Study on Non-smooth Optimization Methods}{68}
-\contentsline {subsubsection}{Comparative Study on Regression Tree Features}{69}
-\contentsline {subsubsection}{Comparative Study on Regression Tree Splitting Criterion}{70}
-\contentsline {subsubsection}{Comparative Study on $p(e)$}{70}
-\contentsline {section}{\numberline {3.7}Conclusion}{71}
-\contentsline {chapter}{Chapter\ 4\hskip 1em\relax Assisting Database Queries with Natural Language Interface}{73}
-\contentsline {chapter}{Chapter\ 5\hskip 1em\relax Conclusion}{74}
-\contentsline {chapter}{References}{75}
+\contentsline {chapter}{List of Tables}{v}{chapter*.2}
+\contentsline {chapter}{List of Figures}{vi}{chapter*.3}
+\contentsline {chapter}{List of Abbreviations}{vii}{chapter*.5}
+\contentsline {chapter}{List of Symbols}{viii}{chapter*.6}
+\contentsline {chapter}{Chapter\ 1\hskip 1em\relax Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}User Decision Making on Mobile Devices}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Bridging Knowledge Gap for Decision Making}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Background}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Studies in Decision Making}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Traditional Decision Support Systems}{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Data-Driven Information Systems}{5}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Mobile User Interactions}{6}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Definition of Decision Making and Decision Support Systems}{8}{section.1.4}
+\contentsline {section}{\numberline {1.5}Motivation for Three Decision Making Problems Studied}{9}{section.1.5}
+\contentsline {section}{\numberline {1.6}Organization of This Thesis}{12}{section.1.6}
+\contentsline {chapter}{Chapter\ 2\hskip 1em\relax Assisting Shopping Decision Making with Numerical Faceted Search}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Related Work}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}Formal Definition}{18}{section.2.3}
+\contentsline {section}{\numberline {2.4}Evaluation}{19}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}User Behavior Assumptions}{19}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Evaluation Metric}{20}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Methods}{21}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}First Method: Dynamic Programming}{22}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}A Second Look: Parameterization}{23}{subsection.2.5.2}
+\contentsline {subsubsection}{Optimizing ARR with Respect to $R$}{23}{section*.15}
+\contentsline {subsubsection}{Optimizing the Surrogate Objective Function}{24}{section*.16}
+\contentsline {subsubsection}{Bounds on $C_n(R)$}{26}{section*.18}
+\contentsline {subsection}{\numberline {2.5.3}Learning to Partition with Regression Tree}{27}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Testing Time and Rounding}{28}{subsection.2.5.4}
+\contentsline {section}{\numberline {2.6}Experiments}{28}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Dataset}{28}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Experimental Results}{29}{subsection.2.6.2}
+\contentsline {subsubsection}{Overall Comparative Study}{30}{section*.20}
+\contentsline {subsubsection}{Comparative Study on Non-smooth Optimization Methods}{31}{section*.24}
+\contentsline {subsubsection}{Comparative Study on Regression Tree Features}{32}{section*.26}
+\contentsline {subsubsection}{Comparative Study on Regression Tree Splitting Criterion}{33}{section*.27}
+\contentsline {subsubsection}{Comparative Study on $p(e)$}{33}{section*.29}
+\contentsline {section}{\numberline {2.7}Conclusion}{34}{section.2.7}
+\contentsline {chapter}{Chapter\ 3\hskip 1em\relax Empirical Study on Knowledge Support for Security Decision Making}{36}{chapter.3}
+\contentsline {section}{\numberline {3.1}Runtime Permission Rationale: Introduction}{36}{section.3.1}
+\contentsline {section}{\numberline {3.2}Background and Related Work}{39}{section.3.2}
+\contentsline {section}{\numberline {3.3}Data Collection}{41}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Crawling Apps}{41}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Annotating Permission-group Rationales}{41}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}RQ1: Overall Explanation Frequency}{42}{section.3.4}
+\contentsline {section}{\numberline {3.5}RQ2: Explanation Frequency for Non-straightforward vs. Straightforward Purposes}{43}{section.3.5}
+\contentsline {section}{\numberline {3.6}RQ3: Incorrect Rationales}{47}{section.3.6}
+\contentsline {section}{\numberline {3.7}RQ4: Rationale Specificity}{49}{section.3.7}
+\contentsline {section}{\numberline {3.8}RQ5: Rationales vs. App Descriptions}{50}{section.3.8}
+\contentsline {section}{\numberline {3.9}Threats to Validity}{51}{section.3.9}
+\contentsline {section}{\numberline {3.10}Implications}{51}{section.3.10}
+\contentsline {section}{\numberline {3.11}Conclusion}{52}{section.3.11}
+\contentsline {chapter}{Chapter\ 4\hskip 1em\relax Recommending Explanation to Assist Security Decision Making}{54}{chapter.4}
+\contentsline {section}{\numberline {4.1}Similar-App Ranker}{56}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Description Similarity}{57}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Title Similarity}{58}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Permission Similarity}{58}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Category Similarity}{59}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Identifying Permission-Explaining Sentences}{59}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Breaking Sentences into Individual Purposes}{59}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Matching Permission-Explaining Sentences}{60}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Ranking Candidate Explaining Sentences}{61}{section.4.3}
+\contentsline {section}{\numberline {4.4}Postprocessing Permission-Explaining Sentences}{63}{section.4.4}
+\contentsline {section}{\numberline {4.5}Evaluation}{63}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Dataset}{64}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Extracting Gold-Standard Sentences}{64}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Evaluation Metrics}{66}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Alternative Approaches Under Comparison}{67}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Automatic Quantitative Evaluation: Text-Similarity Scores}{68}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Quantitative Evaluation: Manually-Judged Accuracy}{69}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}Qualitative Evaluation}{70}{subsection.4.5.7}
+\contentsline {section}{\numberline {4.6}Limitations and Future Work}{72}{section.4.6}
+\contentsline {section}{\numberline {4.7}Related Work}{73}{section.4.7}
+\contentsline {section}{\numberline {4.8}Conclusion}{74}{section.4.8}
+\contentsline {chapter}{Chapter\ 5\hskip 1em\relax Assisting Business Decision Making with Natural Language to SQL Interface}{75}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{75}{section.5.1}
+\contentsline {section}{\numberline {5.2}Related Work}{78}{section.5.2}
+\contentsline {section}{\numberline {5.3}Problem Formulation}{80}{section.5.3}
+\contentsline {section}{\numberline {5.4}Rule-Based Matcher}{80}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}First Step: Improving the Recall}{81}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Second Step: Improving the Accuracy}{81}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Background on IRNet and Experimental Results}{82}{section.5.5}
+\contentsline {section}{\numberline {5.6}An Empirical Study on IRNet Performance}{83}{section.5.6}
+\contentsline {section}{\numberline {5.7}Plans for Future Work}{84}{section.5.7}
+\contentsline {chapter}{Chapter\ 6\hskip 1em\relax Conclusion}{86}{chapter.6}
+\contentsline {section}{\numberline {6.1}General Lessons Learned on Data-Driven Knowledge Support for User Decision Making}{87}{section.6.1}
+\contentsline {section}{\numberline {6.2}Extension of Current Work}{88}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Assisting Shopping Decisions}{88}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Assisting Security Decision Making}{88}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Assisting Natural Language Interface}{88}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Future Work on Data-Driven Decision Support}{89}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Supporting Peer Review Decision Making}{89}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Supporting Developer Search on Stack Overflow}{89}{subsection.6.3.2}
+\contentsline {chapter}{References}{91}{appendix*.49}

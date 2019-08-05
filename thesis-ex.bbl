@@ -22,6 +22,12 @@ Facebook and cambridge analytical data breach.
 \newblock \url{https://androidappsapk.co/detail-geotimer-lite/}.
 \newblock Accessed: 2018-06-29.
 
+\bibitem[pho, ]{phone_penetration}
+How many phones are in the world?
+\newblock
+  \url{https://www.bankmycell.com/blog/how-many-phones-are-in-the-world}.
+\newblock Accessed: 2019-07-23.
+
 \bibitem[idf, ]{idf}
 Inverse document frequency.
 \newblock
@@ -92,13 +98,6 @@ word2vec.
 \newblock \url{https://code.google.com/archive/p/word2vec/}.
 \newblock Accessed: 2018-06-29.
 
-\bibitem[goo, 2016]{googlevoicesearch}
- (2016).
-\newblock Google says 20 percent of mobile queries are voice searches.
-\newblock
-  \url{https://searchengineland.com/google-reveals-20-percent-queries-voice-queries-249917}.
-\newblock Accessed: 2018-12-26.
-
 \bibitem[per, 2018]{permgroup}
  (2018).
 \newblock Android permission groups.
@@ -111,43 +110,6 @@ word2vec.
 \newblock {APKP}ure website.
 \newblock \url{https://www.apkpure.com}.
 \newblock Accessed: 2018-07-27.
-
-\bibitem[aut, 2018]{automateddecision}
- (2018).
-\newblock Automated individual decision-making, including profiling.
-\newblock \url{https://gdpr-info.eu/art-22-gdpr/}.
-\newblock Accessed: 2018-12-26.
-
-\bibitem[mob, 2018a]{mobiletyping}
- (2018a).
-\newblock Continuous input in mobile devices: Pain or gain.
-\newblock
-  \url{https://www.smashingmagazine.com/2015/03/continuous-input-in-mobile-devices-pain-or-gain/}.
-\newblock Accessed: 2018-12-26.
-
-\bibitem[sma, 2018]{smartphonechart}
- (2018).
-\newblock Global smartphone shipments forecast from 2010 to 2022 (in million
-  units).
-\newblock
-  \url{https://www.statista.com/statistics/263441/global-smartphone-shipments-forecast/}.
-\newblock Accessed: 2018-12-26.
-
-\bibitem[exp, 2018]{explainableautonomousdriving}
- (2018).
-\newblock Intelligent machines nvidia lets you peer inside the black box of its
-  self-driving ai.
-\newblock
-  \url{https://www.technologyreview.com/s/604324/nvidia-lets-you-peer-inside-the-black-box-of-its-self-driving-ai/}.
-\newblock Accessed: 2018-12-26.
-
-\bibitem[mob, 2018b]{mobileecom}
- (2018b).
-\newblock Mobile ecommerce stats in 2018 and the future online shopping trends
-  of mcommerce.
-\newblock
-  \url{https://www.outerboxdesign.com/web-design-articles/mobile-ecommerce-statistics}.
-\newblock Accessed: 2018-12-26.
 
 \bibitem[pea, 2018]{pearson}
  (2018).
@@ -168,26 +130,24 @@ word2vec.
 \newblock \url{https://github.com/dennybritz/cnn-text-classification-tf}.
 \newblock Accessed: 2018-07-27.
 
-\bibitem[voi, 2018]{voicesearch}
- (2018).
-\newblock Voice search statistics, facts and trends 2019 for online marketers.
-\newblock \url{https://seoexpertbrad.com/voice-search-statistics/}.
-\newblock Accessed: 2018-12-26.
+\bibitem[mco, 2019]{mcommerce53}
+ (2019).
+\newblock 22 must-know mobile ecommerce stats for 2019.
+\newblock \url{https://www.pixelunion.net/blog/mobile-ecommerce-stats/}.
+\newblock Accessed: 2019-07-31.
 
-\bibitem[wea, 2018]{weavernote}
- (2018).
-\newblock Weaver's model of communication and its implications.
-\newblock
-  \url{http://www.mrc.uidaho.edu/~rwells/techdocs/Weavers%20Model%20of%20Communication%20and%20Its%20Implications.pdf}.
-\newblock Accessed: 2018-12-26.
+\bibitem[mob, 2019]{mobilebi}
+ (2019).
+\newblock Mobile business intelligence: What it is and how it works.
+\newblock \url{https://bi-survey.com/mobile-bi}.
+\newblock Accessed: 2019-07-31.
 
-\bibitem[loc, 2018]{location}
- (2018).
-\newblock Your apps know where you were last night, and they're not keeping it
-  secret.
-\newblock
-  \url{https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html}.
-\newblock Accessed: 2018-12-26.
+\bibitem[Acharya et~al., 2015]{conf/pods/AcharyaDHLS15}
+Acharya, J., Diakonikolas, I., Hegde, C., Li, J.~Z., and Schmidt, L. (2015).
+\newblock Fast and near-optimal algorithms for approximating distributions by
+  histograms.
+\newblock In Milo, T. and Calvanese, D., editors, {\em PODS}, pages 249--263.
+  ACM.
 
 \bibitem[Akhawe et~al., 2013]{conf/www/AkhaweAVS13}
 Akhawe, D., Amann, B., Vallentin, M., and Sommer, R. (2013).
@@ -211,11 +171,24 @@ Andow, B., Acharya, A., Li, D., Enck, W., Singh, K., and Xie, T. (2017).
 \newblock In {\em Proceedings of the ACM Conference on Security and Privacy in
   Wireless and Mobile Networks}, pages 23--34. ACM.
 
+\bibitem[Androutsopoulos et~al., 1993]{androutsopoulos1993masque}
+Androutsopoulos, I., Ritchie, G., and Thanisch, P. (1993).
+\newblock Masque/sql: An efficient and portable natural language query
+  interface for relational databases, iea/aie'93: Proceedings of the 6th
+  international conference on industrial and engineering applications of
+  artificial intelligence and expert systems.
+
 \bibitem[Ant{\' o}n and Earp, 2004]{journals/re/AntonE04}
 Ant{\' o}n, A.~I. and Earp, J.~B. (2004).
 \newblock A requirements taxonomy for reducing web site privacy
   vulnerabilities.
 \newblock {\em Requirements Engineering}, 9(3):169--185.
+
+\bibitem[Arouxet et~al., 2011]{AROUXET2011}
+Arouxet, M.~B., Echebest, N., and Pilotta, E.~A. (2011).
+\newblock {Active-set strategy in Powell's method for optimization without
+  derivatives}.
+\newblock {\em Computational \& Applied Mathematics}, 30:171 -- 196.
 
 \bibitem[Au et~al., 2012]{conf/ccs/AuZHL12}
 Au, K. W.~Y., Zhou, Y.~F., Huang, Z., and Lie, D. (2012).
@@ -228,6 +201,12 @@ Azzopardi, L. (2014).
 \newblock Modelling interaction with economic models of search.
 \newblock In Geva, S., Trotman, A., Bruza, P., Clarke, C. L.~A., and Järvelin,
   K., editors, {\em SIGIR}, pages 3--12. ACM.
+
+\bibitem[Basu~Roy et~al., 2008]{BasuRoy:2008:MDD:1458082.1458088}
+Basu~Roy, S., Wang, H., Das, G., Nambiar, U., and Mohania, M. (2008).
+\newblock Minimum-effort driven dynamic faceted search in structured databases.
+\newblock In {\em Proceedings of the 17th ACM Conference on Information and
+  Knowledge Management}, CIKM '08, pages 13--22, New York, NY, USA. ACM.
 
 \bibitem[Bhatia and Breaux, 2017]{bhatia2017data}
 Bhatia, J. and Breaux, T.~D. (2017).
@@ -242,6 +221,12 @@ Bhatia, J., Breaux, T.~D., and Schaub, F. (2016).
 \newblock {\em ACM Transactions on Software Engineering and Methodology},
   25(3):1--24.
 
+\bibitem[Bogin et~al., 2019]{bogin2019representing}
+Bogin, B., Gardner, M., and Berant, J. (2019).
+\newblock Representing schema structure with graph neural networks for
+  text-to-sql parsing.
+\newblock {\em arXiv preprint arXiv:1905.06241}.
+
 \bibitem[Bonn{\'e} et~al., 2017]{conf/soups/BonnePBT17}
 Bonn{\'e}, B., Peddinti, S.~T., Bilogrevic, I., and Taft, N. (2017).
 \newblock Exploring decision-making with {A}ndroid's runtime permission dialogs
@@ -249,17 +234,22 @@ Bonn{\'e}, B., Peddinti, S.~T., Bilogrevic, I., and Taft, N. (2017).
 \newblock In {\em Proceedings of the Symposium on Usable Privacy and Security},
   pages 195--210. USENIX Association.
 
+\bibitem[Breiman et~al., 1984]{BreimanEtAl:84}
+Breiman, L., Friedman, J., Olshen, R., and Stone, C. (1984).
+\newblock {\em Classification and Regression Trees}.
+\newblock Pacific Grove.
+
+\bibitem[Brent, 1973]{brent73}
+Brent, R. (1973).
+\newblock {\em Algorithms for minimization without derivatives}.
+\newblock Prentice-Hall.
+
 \bibitem[Carre{\~ n}o and Winbladh, 2013]{conf/icse/CarrenoW13}
 Carre{\~ n}o, L. V.~G. and Winbladh, K. (2013).
 \newblock Analysis of user comments: {A}n approach for software requirements
   evolution.
 \newblock In {\em Proceedings of the International Conference on Software
   Engineering}, pages 582--591. IEEE Computer Society.
-
-\bibitem[Chandler, 1994]{chandler1994transmission}
-Chandler, D. (1994).
-\newblock The transmission model of communication.
-\newblock {\em University of Western Australia. Retrieved}, 6:2014.
 
 \bibitem[Chen et~al., 2013]{chen2013contextual}
 Chen, K.~Z., Johnson, N.~M., D'Silva, V., Dai, S., MacNamara, K., Magrino,
@@ -275,17 +265,34 @@ Chin, E., Felt, A.~P., Sekar, V., and Wagner, D. (2012).
 \newblock In {\em Proceedings of the Symposium On Usable Privacy and Security},
   pages 1 -- 16. ACM.
 
-\bibitem[Da~Silva and Agusti-Cullell, 2008]{da2008information}
-Da~Silva, F. S.~C. and Agusti-Cullell, J. (2008).
-\newblock {\em Information flow and knowledge sharing}, volume~2.
-\newblock Elsevier.
+\bibitem[Craswell et~al., 2008]{Craswell:2008:ECC:1341531.1341545}
+Craswell, N., Zoeter, O., Taylor, M., and Ramsey, B. (2008).
+\newblock An experimental comparison of click position-bias models.
+\newblock In {\em Proceedings of the 2008 International Conference on Web
+  Search and Data Mining}, WSDM '08, pages 87--94, New York, NY, USA. ACM.
 
-\bibitem[Degeling et~al., 2018]{degeling2018we}
-Degeling, M., Utz, C., Lentzsch, C., Hosseini, H., Schaub, F., and Holz, T.
-  (2018).
-\newblock We value your privacy... now take some cookies: Measuring the gdpr's
-  impact on web privacy.
-\newblock {\em arXiv preprint arXiv:1808.05096}.
+\bibitem[Dadashkarimi et~al., 2018]{dadashkarimi2018zero}
+Dadashkarimi, J., Fabbri, A., Tatikonda, S., and Radev, D.~R. (2018).
+\newblock Zero-shot transfer learning for semantic parsing.
+\newblock {\em arXiv preprint arXiv:1808.09889}.
+
+\bibitem[Dong and Lapata, 2018]{dong2018coarse}
+Dong, L. and Lapata, M. (2018).
+\newblock Coarse-to-fine decoding for neural semantic parsing.
+\newblock {\em arXiv preprint arXiv:1805.04793}.
+
+\bibitem[Duan et~al., 2013]{duan2013probabilistic}
+Duan, H., Zhai, C., Cheng, J., and Gattani, A. (2013).
+\newblock A probabilistic mixture model for mining and analyzing product search
+  log.
+\newblock In {\em Proceedings of the 22nd ACM international conference on
+  Information \& Knowledge Management}, pages 2179--2188. ACM.
+
+\bibitem[Dvoretzky et~al., 1956]{Karimzadehgan:2010:ETI:1871437.1871631}
+Dvoretzky, A., Kiefer, J., and Wolfowitz, J. (1956).
+\newblock Asymptotic minimax character of the sample distribution function and
+  of the classical multinomial estimator.
+\newblock The Annals of Mathematical Statistics, pages 1397--1400. ACM.
 
 \bibitem[Enck et~al., 2014]{journals/tocs/EnckGHTCCJMS14}
 Enck, W., Gilbert, P., Han, S., Tendulkar, V., Chun, B.-G., Cox, L.~P., Jung,
@@ -322,11 +329,24 @@ Finkel, J.~R., Grenager, T., and Manning, C.~D. (2005).
   Computational Linguistics}, pages 363--370. Association for Computational
   Linguistics.
 
+\bibitem[Gao and Han, 2012]{journals/coap/GaoH12}
+Gao, F. and Han, L. (2012).
+\newblock Implementing the nelder-mead simplex algorithm with adaptive
+  parameters.
+\newblock {\em Comp. Opt. and Appl.}, 51(1):259--277.
+
 \bibitem[Gorla et~al., 2014]{conf/icse/GorlaTGZ14}
 Gorla, A., Tavecchia, I., Gross, F., and Zeller, A. (2014).
 \newblock Checking app behavior against app descriptions.
 \newblock In {\em Proceedings of the International Conference on Software
   Engineering}, pages 1025--1035. ACM.
+
+\bibitem[Guo et~al., 2019]{guo2019towards}
+Guo, J., Zhan, Z., Gao, Y., Xiao, Y., Lou, J.-G., Liu, T., and Zhang, D.
+  (2019).
+\newblock Towards complex text-to-sql in cross-domain database with
+  intermediate representation.
+\newblock {\em arXiv preprint arXiv:1905.08205}.
 
 \bibitem[Guzman and Maalej, 2014]{guzman2014users}
 Guzman, E. and Maalej, W. (2014).
@@ -335,9 +355,13 @@ Guzman, E. and Maalej, W. (2014).
 \newblock In {\em Proceedings of the International Requirements Engineering
   Conference}, pages 153--162. IEEE Computer Society.
 
-\bibitem[Hahn et~al., 2014]{hahn2014survey}
-Hahn, L.~K., Lippert, L., and Paynton, S.~T. (2014).
-\newblock Survey of communication study.
+\bibitem[Hallett, 2006]{hallett2006generic}
+Hallett, C. (2006).
+\newblock Generic querying of relational databases using natural language
+  generation techniques.
+\newblock In {\em Proceedings of the fourth international natural language
+  generation conference}, pages 95--102. Association for Computational
+  Linguistics.
 
 \bibitem[Harbach et~al., 2013]{harbach2013sorry}
 Harbach, M., Fahl, S., Yakovleva, P., and Smith, M. (2013).
@@ -375,6 +399,17 @@ Huang, J., Zhang, X., Tan, L., Wang, P., and Liang, B. (2014).
 \newblock In {\em Proceedings of the International Conference on Software
   Engineering}, pages 1036--1046. ACM.
 
+\bibitem[Hwang et~al., 2019]{hwang2019achieving}
+Hwang, W., Yim, J., Park, S., and Seo, M. (2019).
+\newblock Achieving 90\% accuracy in wikisql.
+
+\bibitem[Jagadish et~al., 1998]{conf/vldb/JagadishKMPSS98}
+Jagadish, H.~V., Koudas, N., Muthukrishnan, S., Poosala, V., Sevcik, K.~C., and
+  Suel, T. (1998).
+\newblock Optimal histograms with quality guarantees.
+\newblock In Gupta, A., Shmueli, O., and Widom, J., editors, {\em VLDB}, pages
+  275--286. Morgan Kaufmann.
+
 \bibitem[Jing et~al., 2014]{conf/codaspy/JingAZH14}
 Jing, Y., Ahn, G.-J., Zhao, Z., and Hu, H. (2014).
 \newblock Risk{M}on: {C}ontinuous and automated risk assessment of mobile
@@ -388,6 +423,18 @@ Johann, T., Stanik, C., B., A. M.~A., and Maalej, W. (2017).
   descriptions and app reviews.
 \newblock In {\em Proceedings of the International Requirements Engineering
   Conference}, pages 21--30. IEEE Computer Society.
+
+\bibitem[Järvelin, 2002]{järvelin2002cumulated}
+Järvelin, K. (2002).
+\newblock Cumulated gain-based evaluation of ir techniques.
+\newblock volume~20, page 2002.
+
+\bibitem[Kamvar and Baluja, 2006]{kamvar2006large}
+Kamvar, M. and Baluja, S. (2006).
+\newblock A large scale study of wireless search behavior: Google mobile
+  search.
+\newblock In {\em Proceedings of the SIGCHI conference on Human Factors in
+  computing systems}, pages 701--709. ACM.
 
 \bibitem[Kang et~al., 2015]{journals/ijon/KangYZTHC15}
 Kang, C., Yin, D., Zhang, R., Torzec, N., He, J., and Chang, Y. (2015).
@@ -413,12 +460,25 @@ Kelley, P.~G., Cranor, L.~F., and Sadeh, N.~M. (2013).
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, pages 3393--3402. ACM.
 
+\bibitem[Kim et~al., 2015]{kim2015eye}
+Kim, J., Thomas, P., Sankaranarayana, R., Gedeon, T., and Yoon, H.-J. (2015).
+\newblock Eye-tracking analysis of user behavior and performance in web search
+  on large and small screens.
+\newblock {\em Journal of the Association for Information Science and
+  Technology}, 66(3):526--544.
+
 \bibitem[Kim, 2014]{kim2014convolutional}
 Kim, Y. (2014).
 \newblock Convolutional neural networks for sentence classification.
 \newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
   Language Processing}, pages 1746--1751. Association for Computational
   Linguistics.
+
+\bibitem[Kim et~al., 2014]{kim2014modeling}
+Kim, Y., Hassan, A., White, R.~W., and Zitouni, I. (2014).
+\newblock Modeling dwell time to predict click-level satisfaction.
+\newblock In {\em Proceedings of the 7th ACM international conference on Web
+  search and data mining}, pages 193--202. ACM.
 
 \bibitem[Klein and Manning, 2003]{Klein2003}
 Klein, D. and Manning, C.~D. (2003).
@@ -458,6 +518,10 @@ Liberman, S. and Lempel, R. (2012).
 \newblock Approximately optimal facet selection.
 \newblock In {\em Proceedings of the 27th Annual ACM Symposium on Applied
   Computing}, SAC '12, pages 702--708, New York, NY, USA. ACM.
+
+\bibitem[Lin et~al., 2017]{lin2017location}
+Lin, C., Wang, J., Lu, J., et~al. (2017).
+\newblock Location-sensitive query auto-completion.
 
 \bibitem[Lin et~al., 2014]{conf/soups/LinLSH14}
 Lin, J., Liu, B., Sadeh, N.~M., and Hong, J.~I. (2014).
@@ -515,15 +579,22 @@ Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013).
 \newblock In {\em Advances in Neural Information Processing Systems 26}, pages
   3111--3119. Morgan Kaufmann.
 
-\bibitem[Miller, 1967]{miller1967psychology}
-Miller, G.~A. (1967).
-\newblock The psychology of communication.
-\newblock {\em Human Resource Management}, 6(3):43.
-
 \bibitem[Moffat and Zobel, 2008]{journals/tois/MoffatZ08}
 Moffat, A. and Zobel, J. (2008).
 \newblock Rank-biased precision for measurement of retrieval effectiveness.
 \newblock {\em ACM Trans. Inf. Syst.}, 27(1).
+
+\bibitem[Muralikrishna and DeWitt, 1988]{conf/sigmod/MuralikrishnaD88}
+Muralikrishna, M. and DeWitt, D.~J. (1988).
+\newblock Equi-depth histograms for estimating selectivity factors for
+  multi-dimensional queries.
+\newblock In Boral, H. and Larson, P.-�., editors, {\em SIGMOD Conference},
+  pages 28--36. ACM Press.
+
+\bibitem[Nelder and Mead, 1965]{Nelder1965}
+Nelder, J.~A. and Mead, R. (1965).
+\newblock A simplex method for function minimization.
+\newblock {\em Computer Journal}, 7:308--313.
 
 \bibitem[Nissenbaum, 2004]{Nissenbaum:2004}
 Nissenbaum, H. (2004).
@@ -563,11 +634,6 @@ Pandita, R., Xiao, X., Yang, W., Enck, W., and Xie, T. (2013).
 \newblock In {\em Proceedings of the USENIX Security Symposium}, pages
   527--542. USENIX Association.
 
-\bibitem[Patel et~al., 2005]{patel2005systems}
-Patel, A.~J. et~al. (2005).
-\newblock Systems and methods for highlighting search results.
-\newblock US Patent 6,839,702.
-
 \bibitem[Pirolli and Card, 1999]{card:1999}
 Pirolli, P. and Card, S. (1999).
 \newblock Information foraging.
@@ -579,12 +645,22 @@ Popescu, A.-M., Etzioni, O., and Kautz, H. (2003).
 \newblock In {\em Proceedings of the 8th international conference on
   Intelligent user interfaces}, pages 149--157. ACM.
 
+\bibitem[Qiao et~al., 2019]{qiao2019understanding}
+Qiao, Y., Xiong, C., Liu, Z., and Liu, Z. (2019).
+\newblock Understanding the behaviors of bert in ranking.
+\newblock {\em arXiv preprint arXiv:1904.07531}.
+
 \bibitem[Qu et~al., 2014]{conf/ccs/QuRZCZC14}
 Qu, Z., Rastogi, V., Zhang, X., Chen, Y., Zhu, T., and Chen, Z. (2014).
 \newblock Auto{C}og: {M}easuring the description-to-permission fidelity in
   {Android} applications.
 \newblock In {\em Proceedings of the ACM Conference on Computer and
   Communications Security}, pages 1354--1365. ACM.
+
+\bibitem[Robertson, 1997]{robertson-the-1997}
+Robertson, S.~E. (1997).
+\newblock The probability ranking principle in ir.
+\newblock {\em Journal of Documentation 33}, pages 294--304.
 
 \bibitem[Robertson and Walker, 1994]{FT006}
 Robertson, S.~E. and Walker, S. (1994).
@@ -611,27 +687,17 @@ Salton, G., Wong, A., and Yang, C. (1975).
 \newblock A vector space model for automatic indexing.
 \newblock {\em Communications of the ACM}, 18(11):613--620.
 
+\bibitem[Sankhavara, 2018]{sankhavara2018biomedical}
+Sankhavara, J. (2018).
+\newblock Biomedical document retrieval for clinical decision support system.
+\newblock In {\em Proceedings of ACL 2018, Student Research Workshop}, pages
+  84--90.
+
 \bibitem[Schaub et~al., 2015]{conf/soups/SchaubBDC15}
 Schaub, F., Balebako, R., Durity, A.~L., and Cranor, L.~F. (2015).
 \newblock A design space for effective privacy notices.
 \newblock In {\em Proceedings of the Symposium On Usable Privacy and Security},
   pages 1--17. USENIX Association.
-
-\bibitem[Shannon, 1948]{shannon1948mathematical}
-Shannon, C.~E. (1948).
-\newblock A mathematical theory of communication.
-\newblock {\em Bell system technical journal}, 27(3):379--423.
-
-\bibitem[Shannon et~al., 1951]{shannon1951mathematical}
-Shannon, C.~E., Weaver, W., and Burks, A.~W. (1951).
-\newblock The mathematical theory of communication.
-
-\bibitem[Siek et~al., 2005]{siek2005fat}
-Siek, K.~A., Rogers, Y., and Connelly, K.~H. (2005).
-\newblock Fat finger worries: how older and younger users physically interact
-  with pdas.
-\newblock In {\em IFIP Conference on Human-Computer Interaction}, pages
-  267--280. Springer.
 
 \bibitem[Slavin et~al., 2016]{slavin2016toward}
 Slavin, R., Wang, X., Hosseini, M.~B., Hester, J., Krishnan, R., Bhatia, J.,
@@ -640,6 +706,22 @@ Slavin, R., Wang, X., Hosseini, M.~B., Hester, J., Krishnan, R., Bhatia, J.,
   {Android} application code.
 \newblock In {\em Proceedings of the International Conference on Software
   Engineering}, pages 25--36. ACM.
+
+\bibitem[Sparck~Jones and Willett, 1997]{SparckJones:1997:RIR:275537}
+Sparck~Jones, K. and Willett, P., editors (1997).
+\newblock {\em Readings in Information Retrieval}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.
+
+\bibitem[Su and Yan, 2017]{su2017cross}
+Su, Y. and Yan, X. (2017).
+\newblock Cross-domain semantic parsing via paraphrasing.
+\newblock {\em arXiv preprint arXiv:1704.05974}.
+
+\bibitem[Sun et~al., 2018]{sun2018multi}
+Sun, F., Jiang, P., Sun, H., Pei, C., Ou, W., and Wang, X. (2018).
+\newblock Multi-source pointer network for product title summarization.
+\newblock In {\em Proceedings of the 27th ACM International Conference on
+  Information and Knowledge Management}, pages 7--16. ACM.
 
 \bibitem[Tan et~al., 2014]{conf/chi/TanNTNTEW14}
 Tan, J., Nguyen, K., Theodorides, M., Negr{\'o}n-Arroyo, H., Thompson, C.,
@@ -656,12 +738,23 @@ Tian, Y., Nagappan, M., Lo, D., and Hassan, A.~E. (2015).
 \newblock In {\em Proceedings of the IEEE International Conference on Software
   Maintenance and Evolution}, pages 301--310. IEEE Computer Society.
 
+\bibitem[Tibshirani, 1996]{tibshirani1996regression}
+Tibshirani, R. (1996).
+\newblock {Regression shrinkage and selection via the Lasso}.
+\newblock {\em Journal of the Royal Statistical Society. Series B
+  (Methodological)}, pages 267--288.
+
 \bibitem[Toutanova et~al., 2003]{conf/naacl/ToutanovaKMS03}
 Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
 \newblock Feature-rich part-of-speech tagging with a cyclic dependency network.
 \newblock In {\em Proceedings of the Conference of the North American Chapter
   of the Association for Computational Linguistics: Human Language
   Technologies}, pages 173--180. The Association for Computational Linguistics.
+
+\bibitem[Valizadegan et~al., 2009]{DBLP:conf/nips/ValizadeganJZM09}
+Valizadegan, H., Jin, R., Zhang, R., and Mao, J. (2009).
+\newblock Learning to rank by optimizing ndcg measure.
+\newblock In {\em NIPS}, pages 1883--1891.
 
 \bibitem[van Zwol et~al., 2010]{Zwol}
 van Zwol, R., Sigurbjörnsson, B., Adapala, R., Pueyo, L.~G., Katiyar, A.,
@@ -677,6 +770,12 @@ Vandic, D., Frasincar, F., and Kaymak, U. (2013).
   Conference on Information \&\#38; Knowledge Management}, CIKM '13, pages
   2327--2332, New York, NY, USA. ACM.
 
+\bibitem[Vargas et~al., 2016]{vargas2016term}
+Vargas, S., Blanco, R., and Mika, P. (2016).
+\newblock Term-by-term query auto-completion for mobile search.
+\newblock In {\em Proceedings of the Ninth ACM International Conference on Web
+  Search and Data Mining}, pages 143--152. ACM.
+
 \bibitem[Viennot et~al., 2014]{conf/sigmetrics/ViennotGN14}
 Viennot, N., Garcia, E., and Nieh, J. (2014).
 \newblock A measurement study of {Google Play}.
@@ -691,12 +790,30 @@ Votipka, D., Micinski, K., Rabin, S.~M., Gilray, T., Mazurek, M.~M., and
 \newblock In {\em Proceedings of the Symposium on Usable Privacy and Security}.
   {USENIX} Association.
 
-\bibitem[Wang et~al., 2015]{conf/huc/WangHG15}
-Wang, H., Hong, J., and Guo, Y. (2015).
+\bibitem[Wang et~al., 2018]{wang2018execution}
+Wang, C., Huang, P.-S., Polozov, A., Brockschmidt, M., and Singh, R. (2018).
+\newblock Execution-guided neural program decoding.
+\newblock {\em arXiv preprint arXiv:1807.03100}.
+
+\bibitem[Wang et~al., 2015a]{conf/huc/WangHG15}
+Wang, H., Hong, J., and Guo, Y. (2015a).
 \newblock Using text mining to infer the purpose of permission use in mobile
   apps.
 \newblock In {\em Proceedings of the ACM International Joint Conference on
   Pervasive and Ubiquitous Computing}, pages 1107--1118. ACM.
+
+\bibitem[Wang et~al., 2015b]{wang2015building}
+Wang, Y., Berant, J., and Liang, P. (2015b).
+\newblock Building a semantic parser overnight.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 1332--1342.
+
+\bibitem[Warren and Pereira, 1982]{warren1982efficient}
+Warren, D.~H. and Pereira, F.~C. (1982).
+\newblock An efficient easily adaptable system for interpreting natural
+  language queries.
+\newblock {\em Computational Linguistics}, 8(3-4):110--122.
 
 \bibitem[Wijesekera et~al., 2015]{conf/uss/WijesekeraBHEWB15}
 Wijesekera, P., Baokar, A., Hosseini, A., Egelman, S., Wagner, D.~A., and
@@ -714,10 +831,29 @@ Wijesekera, P., Baokar, A., Tsai, L., Reardon, J., Egelman, S., Wagner, D., and
 \newblock In {\em Proceedings of the IEEE Symposium on Security and Privacy},
   pages 1077--1093. IEEE Computer Society.
 
+\bibitem[Williams et~al., 2016]{williams2016detecting}
+Williams, K., Kiseleva, J., Crook, A.~C., Zitouni, I., Awadallah, A.~H., and
+  Khabsa, M. (2016).
+\newblock Detecting good abandonment in mobile search.
+\newblock In {\em Proceedings of the 25th International Conference on World
+  Wide Web}, pages 495--505. International World Wide Web Conferences Steering
+  Committee.
+
 \bibitem[Wogalter et~al., 2002]{Wogalter2002ResearchbasedGF}
 Wogalter, M.~S., Conzola, V.~C., and Smith-Jackson, T.~L. (2002).
 \newblock Research-based guidelines for warning design and evaluation.
 \newblock volume~33, pages 219--230. Elsevier.
+
+\bibitem[Xu et~al., 2017]{xu2017sqlnet}
+Xu, X., Liu, C., and Song, D. (2017).
+\newblock Sqlnet: Generating structured queries from natural language without
+  reinforcement learning.
+\newblock {\em arXiv preprint arXiv:1711.04436}.
+
+\bibitem[Yaghmazadeh et~al., 2017]{yaghmazadeh2017sqlizer}
+Yaghmazadeh, N., Wang, Y., Dillig, I., and Dillig, T. (2017).
+\newblock Sqlizer: query synthesis from natural language.
+\newblock {\em Proceedings of the ACM on Programming Languages}, 1(OOPSLA):63.
 
 \bibitem[Yang et~al., 2015]{yang2015appcontext}
 Yang, W., Xiao, X., Andow, B., Li, S., Xie, T., and Enck, W. (2015).
@@ -726,10 +862,41 @@ Yang, W., Xiao, X., Andow, B., Li, S., Xie, T., and Enck, W. (2015).
 \newblock In {\em Proceedings of the International Conference on Software
   Engineering}, pages 303--313. IEEE Computer Society.
 
+\bibitem[Yi et~al., 2008]{yi2008deciphering}
+Yi, J., Maghoul, F., and Pedersen, J. (2008).
+\newblock Deciphering mobile search patterns: a study of yahoo! mobile search
+  queries.
+\newblock In {\em Proceedings of the 17th international conference on World
+  Wide Web}, pages 257--266. ACM.
+
 \bibitem[Yilmaz et~al., 2014]{conf/cikm/YilmazVCRB14}
 Yilmaz, E., Verma, M., Craswell, N., Radlinski, F., and Bailey, P. (2014).
 \newblock Relevance and effort: An analysis of document utility.
 \newblock In {\em CIKM}, pages 91--100. ACM.
+
+\bibitem[Yu et~al., 2018a]{yu2018typesql}
+Yu, T., Li, Z., Zhang, Z., Zhang, R., and Radev, D. (2018a).
+\newblock Typesql: Knowledge-based type-aware neural text-to-sql generation.
+\newblock {\em arXiv preprint arXiv:1804.09769}.
+
+\bibitem[Yu et~al., 2018b]{yu2018syntaxsqlnet}
+Yu, T., Yasunaga, M., Yang, K., Zhang, R., Wang, D., Li, Z., and Radev, D.
+  (2018b).
+\newblock Syntaxsqlnet: Syntax tree networks for complex and
+  cross-domaintext-to-sql task.
+\newblock {\em arXiv preprint arXiv:1810.05237}.
+
+\bibitem[Yu et~al., 2018c]{yu2018spider}
+Yu, T., Zhang, R., Yang, K., Yasunaga, M., Wang, D., Li, Z., Ma, J., Li, I.,
+  Yao, Q., Roman, S., et~al. (2018c).
+\newblock Spider: A large-scale human-labeled dataset for complex and
+  cross-domain semantic parsing and text-to-sql task.
+\newblock {\em arXiv preprint arXiv:1809.08887}.
+
+\bibitem[Yue et~al., 2007]{yue2007support}
+Yue, Y., Finley, T., Radlinski, F., and Joachims, T. (2007).
+\newblock A support vector method for optimizing average precision.
+\newblock In {\em SIGIR}, pages 271--278. ACM.
 
 \bibitem[Zhai and Lafferty, 2001]{Zhai07noteson}
 Zhai, C. and Lafferty, J. (2001).
@@ -745,12 +912,17 @@ Zhang, M., Duan, Y., Feng, Q., and Yin, H. (2015).
 \newblock In {\em Proceedings of the ACM SIGSAC Conference on Computer and
   Communications Security}, pages 518--529. ACM.
 
-\bibitem[Zhang et~al., 2017]{zhang2017information}
-Zhang, Y., Liu, X., and Zhai, C. (2017).
-\newblock Information retrieval evaluation as search simulation: A general
-  formal framework for ir evaluation.
-\newblock In {\em Proceedings of the ACM SIGIR International Conference on
-  Theory of Information Retrieval}, pages 193--200. ACM.
+\bibitem[Zhang and Zhai, 2015]{conf/sigir/ZhangZ15}
+Zhang, Y. and Zhai, C. (2015).
+\newblock Information retrieval as card playing: A formal model for optimizing
+  interactive retrieval interface.
+\newblock In {\em SIGIR}, pages 685--694. ACM.
+
+\bibitem[Zhong et~al., 2017]{zhong2017seq2sql}
+Zhong, V., Xiong, C., and Socher, R. (2017).
+\newblock Seq2sql: Generating structured queries from natural language using
+  reinforcement learning.
+\newblock {\em arXiv preprint arXiv:1709.00103}.
 
 \bibitem[Zimmeck et~al., 2017]{conf/ndss/ZimmeckWZI0SWSB17}
 Zimmeck, S., Wang, Z., Zou, L., Iyengar, R., Liu, B., Schaub, F., Wilson, S.,

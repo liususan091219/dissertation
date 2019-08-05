@@ -1,0 +1,6 @@
+PWD /Users/xqq/Documents/work/dissertation/long/tex/6-conclusion
+INPUT /usr/local/texlive/2016/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/xqq/Documents/work/dissertation/long/tex/6-conclusion/6-conclusion.tex
+OUTPUT /Users/xqq/Documents/work/dissertation/long/tex/6-conclusion/6-conclusion.log
