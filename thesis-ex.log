@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  5 AUG 2019 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  5 AUG 2019 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,62 +1134,67 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 <figure/chapter1/knowledge1.png, id=627, 668.4975pt x 302.12875pt>
 File: figure/chapter1/knowledge1.png Graphic file (type png)
 <use figure/chapter1/knowledge1.png>
-Package pdftex.def Info: figure/chapter1/knowledge1.png used on input line 20.
+Package pdftex.def Info: figure/chapter1/knowledge1.png used on input line 28.
 (pdftex.def)             Requested size: 281.40286pt x 127.18364pt.
 <figure/chapter1/knowledge3.jpg, id=629, 1033.8625pt x 976.64874pt>
 File: figure/chapter1/knowledge3.jpg Graphic file (type jpg)
 <use figure/chapter1/knowledge3.jpg>
-Package pdftex.def Info: figure/chapter1/knowledge3.jpg used on input line 21.
+Package pdftex.def Info: figure/chapter1/knowledge3.jpg used on input line 29.
 (pdftex.def)             Requested size: 140.70143pt x 132.91486pt.
-) [4 </Users/xqq/Documents/work/dissertation/long/figure/chapter1/knowledge1.pn
-g> </Users/xqq/Documents/work/dissertation/long/figure/chapter1/knowledge3.jpg>
-] (/Users/xqq/Documents/work/dissertation/long/tex/1-intro/1-background.tex [5]
-[6] [7]) (/Users/xqq/Documents/work/dissertation/long/tex/1-intro/1-overview.te
-x [8] <figure/chapter1/overview2.png, id=692, 837.1275pt x 315.1775pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]) (/Users/xqq/Documents/work/dissertation/long/tex/1-intro/1-background.tex 
+[5 </Users/xqq/Documents/work/dissertation/long/figure/chapter1/knowledge1.png>
+ </Users/xqq/Documents/work/dissertation/long/figure/chapter1/knowledge3.jpg>] 
+[6] [7]) [8] (/Users/xqq/Documents/work/dissertation/long/tex/1-intro/1-overvie
+w.tex <figure/chapter1/overview2.png, id=691, 837.1275pt x 315.1775pt>
 File: figure/chapter1/overview2.png Graphic file (type png)
 <use figure/chapter1/overview2.png>
-Package pdftex.def Info: figure/chapter1/overview2.png used on input line 20.
+Package pdftex.def Info: figure/chapter1/overview2.png used on input line 12.
 (pdftex.def)             Requested size: 304.84714pt x 114.77191pt.
-<figure/chapter1/overview1.jpg, id=693, 1058.95625pt x 970.62625pt>
+<figure/chapter1/overview1.jpg, id=692, 1058.95625pt x 970.62625pt>
 File: figure/chapter1/overview1.jpg Graphic file (type jpg)
 <use figure/chapter1/overview1.jpg>
-Package pdftex.def Info: figure/chapter1/overview1.jpg used on input line 21.
+Package pdftex.def Info: figure/chapter1/overview1.jpg used on input line 13.
 (pdftex.def)             Requested size: 126.632pt x 116.05542pt.
 [9 </Users/xqq/Documents/work/dissertation/long/figure/chapter1/overview2.png> 
 </Users/xqq/Documents/work/dissertation/long/figure/chapter1/overview1.jpg>] <f
 igure/chapter1/android1.png, id=704, 314.17375pt x 426.59375pt>
 File: figure/chapter1/android1.png Graphic file (type png)
 <use figure/chapter1/android1.png>
-Package pdftex.def Info: figure/chapter1/android1.png used on input line 33.
+Package pdftex.def Info: figure/chapter1/android1.png used on input line 25.
 (pdftex.def)             Requested size: 117.25pt x 159.20416pt.
 <figure/chapter1/android2.png, id=705, 1418.29875pt x 2002.48125pt>
 File: figure/chapter1/android2.png Graphic file (type png)
 <use figure/chapter1/android2.png>
-Package pdftex.def Info: figure/chapter1/android2.png used on input line 34.
+Package pdftex.def Info: figure/chapter1/android2.png used on input line 26.
 (pdftex.def)             Requested size: 117.25pt x 165.5184pt.
 <figure/chapter1/android3.jpg, id=706, 565.11125pt x 718.685pt>
 File: figure/chapter1/android3.jpg Graphic file (type jpg)
 <use figure/chapter1/android3.jpg>
-Package pdftex.def Info: figure/chapter1/android3.jpg used on input line 35.
+Package pdftex.def Info: figure/chapter1/android3.jpg used on input line 27.
 (pdftex.def)             Requested size: 117.25pt x 149.10791pt.
-[10 </Users/xqq/Documents/work/dissertation/long/figure/chapter1/android1.png> 
-</Users/xqq/Documents/work/dissertation/long/figure/chapter1/android2.png> </Us
-ers/xqq/Documents/work/dissertation/long/figure/chapter1/android3.jpg>] <figure
-/chapter1/powerbi1_crop.pdf, id=718, 674.52pt x 373.87682pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] <figure/chapter1/powerbi1_crop.pdf, id=715, 674.52pt x 373.87682pt>
 File: figure/chapter1/powerbi1_crop.pdf Graphic file (type pdf)
 <use figure/chapter1/powerbi1_crop.pdf>
-Package pdftex.def Info: figure/chapter1/powerbi1_crop.pdf used on input line 4
-5.
+Package pdftex.def Info: figure/chapter1/powerbi1_crop.pdf used on input line 3
+7.
 (pdftex.def)             Requested size: 234.5pt x 129.98029pt.
-<figure/chapter1/powerbi2.png, id=719, 252.19218pt x 285.31593pt>
+<figure/chapter1/powerbi2.png, id=716, 252.19218pt x 285.31593pt>
 File: figure/chapter1/powerbi2.png Graphic file (type png)
 <use figure/chapter1/powerbi2.png>
-Package pdftex.def Info: figure/chapter1/powerbi2.png used on input line 46.
+Package pdftex.def Info: figure/chapter1/powerbi2.png used on input line 38.
 (pdftex.def)             Requested size: 117.25pt x 132.64876pt.
-[11 </Users/xqq/Documents/work/dissertation/long/figure/chapter1/powerbi1_crop.
-pdf> </Users/xqq/Documents/work/dissertation/long/figure/chapter1/powerbi2.png>
-])) [12] (/Users/xqq/Documents/work/dissertation/long/tex/2-shopping/2-shopping
-.tex [13]
+[11 </Users/xqq/Documents/work/dissertation/long/figure/chapter1/android1.png> 
+</Users/xqq/Documents/work/dissertation/long/figure/chapter1/android2.png> </Us
+ers/xqq/Documents/work/dissertation/long/figure/chapter1/android3.jpg> </Users/
+xqq/Documents/work/dissertation/long/figure/chapter1/powerbi1_crop.pdf> </Users
+/xqq/Documents/work/dissertation/long/figure/chapter1/powerbi2.png>] [12])) (/U
+sers/xqq/Documents/work/dissertation/long/tex/2-shopping/2-shopping.tex [13]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2530,7 +2535,7 @@ s/work/dissertation/long/Appendix.tex.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `thesis-ex.out' has not changed.
-(rerunfilecheck)             Checksum: 4EF4EBC5E9BA6AF098E9CAC8691D4B99;6777.
+(rerunfilecheck)             Checksum: 72A9B8B9E183BE1F93EECA03E68F2984;6777.
 
 LaTeX Warning: There were undefined references.
 
@@ -2590,7 +2595,7 @@ s/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/courier/ucrro8a.pfb>
 Output written on /Users/xqq/Documents/work/dissertation/long/thesis-ex.pdf (10
-9 pages, 2658190 bytes).
+9 pages, 2658120 bytes).
 PDF statistics:
  3052 PDF objects out of 3580 (max. 8388607)
  2090 compressed objects within 21 object streams
